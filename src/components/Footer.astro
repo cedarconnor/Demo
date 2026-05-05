@@ -1,0 +1,16 @@
+---
+import { email } from "../lib/projects";
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <h2 class="display" style="font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: 1rem;">Let's build something.</h2>
+      <p class="lead"><a href={`mailto:${email}`} style="color: var(--accent); border-bottom: 1px solid currentColor;">{email}</a></p>
+    </div>
+    <div class="colophon">
+      <p>&copy; {year} Cedar Connor</p>
+      <p style="margin-top:0.4rem;">Built with Astro · Hosted on GitHub Pages</p>
+    </div>
+  </div>
+</footer>

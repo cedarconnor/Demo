@@ -1,0 +1,42 @@
+---
+// A YouTube embed that uses the privacy-enhanced (no-cookie) domain
+// and lazy-loads. If `youtubeId` is empty, renders a placeholder card so
+// the layout still looks intentional while you upload.
+
+interface Props {
+  youtubeId: string;
+  title: string;
+  /** "hero" => 21:9 hero reel, "project" => 16:9 single project. */
+  variant?: "hero" | "project";
+  /** When true, autoplay muted (good for hero reels). */
+  autoplay?: boolean;
+}
+const { youtubeId, title, variant = "project", autoplay = false } = Astro.props;
+const className = variant === "hero" ? "hero-reel" : "proj-hero";
+
+const params = new URLSearchParams({
+  rel: "0",
+  modestbranding: "1",
+  playsinline: "1",
+  ...(autoplay ? { autoplay: "1", mute: "1", loop: "1", playlist: youtubeId } : {}),
+});
+const src = youtubeId ? `https://www.youtube-nocookie.com/embed/${youtubeId}?${params}` : "";
+---
+<div class={className}>
+  {youtubeId ? (
+    <iframe
+      src={src}
+      title={title}
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      referrerpolicy="strict-origin-when-cross-origin"
+    ></iframe>
+  ) : (
+    <div class="placeholder-inner">
+      <div class="eyebrow">Awaiting upload</div>
+      <div style="font-family: var(--type-display); font-size: 1.5rem;">{title}</div>
+      <code>youtubeId pending</code>
+    </div>
+  )}
+</div>

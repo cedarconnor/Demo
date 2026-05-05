@@ -1,0 +1,29 @@
+---
+import type { Project } from "../lib/projects";
+import { categories } from "../lib/projects";
+import { url } from "../lib/url";
+
+interface Props {
+  project: Project;
+}
+const { project } = Astro.props;
+const yt = project.youtubeId || "";
+const hasYouTube = yt.length > 0;
+const thumbUrl = hasYouTube ? "https://i.ytimg.com/vi/" + yt + "/maxresdefault.jpg" : "";
+const fallbackUrl = hasYouTube ? "https://i.ytimg.com/vi/" + yt + "/hqdefault.jpg" : "";
+const cat = categories[project.category] || project.category;
+const tileClass = hasYouTube ? "tile" : "tile placeholder";
+const href = url("/work/" + project.slug);
+const onerror = hasYouTube ? "this.onerror=null;this.src='" + fallbackUrl + "'" : "";
+const durSuffix = project.duration ? " · " + project.duration : "";
+---
+<a class={tileClass} href={href} aria-label={project.title}>
+  {hasYouTube && <img class="thumb" src={thumbUrl} alt={project.title} loading="lazy" onerror={onerror} />}
+  {!hasYouTube && <div class="thumb"></div>}
+  <div class="meta">
+    <div>
+      <div class="t">{project.title}</div>
+      <div class="c">{cat}{durSuffix}</div>
+    </div>
+  </div>
+</a>

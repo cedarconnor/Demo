@@ -1,0 +1,65 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import VideoEmbed from "../components/VideoEmbed.astro";
+import ProjectTile from "../components/ProjectTile.astro";
+import { reel, featuredProjects, categories, projectsByCategory } from "../lib/projects";
+import { url } from "../lib/url";
+
+const realtimeStrip = projectsByCategory("realtime").slice(0, 4);
+const aiStrip = projectsByCategory("ai").slice(0, 4);
+const featuredNoReel = featuredProjects.filter((p) => p.category !== "reel");
+const reelId = reel ? reel.youtubeId : "";
+const reelTitle = reel ? reel.title : "Demo Reel";
+---
+<BaseLayout pageId="home">
+  <section class="wrap" style="padding-top: clamp(3rem, 8vh, 6rem); padding-bottom: 3rem;">
+    <div class="eyebrow">Creative technologist · Themed entertainment · AI · Real-time</div>
+    <h1 style="margin-top: 1rem;">
+      I prototype the<br />
+      <em style="font-style: italic; color: var(--accent);">unprovable.</em>
+    </h1>
+    <p class="lead" style="margin-top: 1.5rem;">
+      I build with Unreal Engine, ComfyUI, MediaPipe, projection systems, and VR rigs to
+      make ideas visible before they are real. Below is a working set of experiments
+      that I keep refreshed.
+    </p>
+  </section>
+
+  <section class="wrap">
+    <VideoEmbed youtubeId={reelId} title={reelTitle} variant="hero" autoplay={true} />
+  </section>
+
+  <section class="wrap" style="margin-top: 5rem;">
+    <header style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:1.5rem;">
+      <h2>Featured</h2>
+      <a href={url("/work")} class="eyebrow">All work</a>
+    </header>
+    <div class="grid-cinema">
+      {featuredNoReel.map((project) => <ProjectTile project={project} />)}
+    </div>
+  </section>
+
+  {realtimeStrip.length > 0 && (
+    <section class="wrap" style="margin-top: 5rem;">
+      <header style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:1.5rem;">
+        <h2>{categories["realtime"]}</h2>
+        <a href={url("/work")} class="eyebrow">More</a>
+      </header>
+      <div class="grid-cinema">
+        {realtimeStrip.map((project) => <ProjectTile project={project} />)}
+      </div>
+    </section>
+  )}
+
+  {aiStrip.length > 0 && (
+    <section class="wrap" style="margin-top: 5rem;">
+      <header style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:1.5rem;">
+        <h2>{categories["ai"]}</h2>
+        <a href={url("/ai")} class="eyebrow">All AI experiments</a>
+      </header>
+      <div class="grid-cinema">
+        {aiStrip.map((project) => <ProjectTile project={project} />)}
+      </div>
+    </section>
+  )}
+</BaseLayout>

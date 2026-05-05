@@ -1,0 +1,55 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import VideoEmbed from "../../components/VideoEmbed.astro";
+import ProjectTile from "../../components/ProjectTile.astro";
+import { allProjects, categories } from "../../lib/projects";
+
+export async function getStaticPaths() {
+  return allProjects.map((p) => ({ params: { slug: p.slug }, props: { project: p } }));
+}
+
+const { project } = Astro.props as any;
+const cat = categories[project.category] || project.category;
+
+// Recommend 4 related projects from the same category.
+const related = allProjects
+  .filter((p) => p.category === project.category && p.slug !== project.slug)
+  .slice(0, 4);
+---
+<BaseLayout pageId={`work/${project.slug}`} title={`${project.title} — Cedar Connor`} description={project.description}>
+  <section class="wrap" style="padding-top: clamp(2rem, 6vh, 4rem); padding-bottom: 1rem;">
+    <div class="eyebrow">{cat}{project.duration ? ` · ${project.duration}` : ""}</div>
+    <h1 style="margin-top: 1rem; font-size: clamp(2rem, 5vw, 4.5rem);">{project.title}</h1>
+  </section>
+
+  <section class="wrap">
+    <VideoEmbed youtubeId={project.youtubeId} title={project.title} variant="project" />
+  </section>
+
+  <section class="wrap proj-meta">
+    <div>
+      <p class="lead">{project.description}</p>
+    </div>
+    <div>
+      <dl>
+        <dt>Discipline</dt>
+        <dd>{cat}</dd>
+        {project.duration && (<>
+          <dt>Length</dt>
+          <dd>{project.duration}</dd>
+        </>)}
+        <dt>Slug</dt>
+        <dd><code style="font-family: var(--type-mono); font-size: 0.85rem; color: var(--fg-muted);">{project.slug}</code></dd>
+      </dl>
+    </div>
+  </section>
+
+  {related.length > 0 && (
+    <section class="wrap" style="margin-top: 4rem;">
+      <h2 style="margin-bottom: 1.5rem;">More {cat.toLowerCase()}</h2>
+      <div class="grid-cinema">
+        {related.map((p) => <ProjectTile project={p} />)}
+      </div>
+    </section>
+  )}
+</BaseLayout>
