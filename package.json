@@ -7,6 +7,8 @@
     "dev": "astro dev",
     "start": "astro dev",
     "sync": "node scripts/sync-playlists.mjs",
+    "thumbs": "node scripts/fetch-thumbs.mjs",
+    "thumbs:refresh": "node scripts/fetch-thumbs.mjs --force",
     "prebuild": "node scripts/sync-playlists.mjs",
     "build": "astro build",
     "preview": "astro preview",
