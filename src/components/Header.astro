@@ -1,5 +1,7 @@
 ---
 import { url, BASE } from "../lib/url";
+import { categories, categoryKeys } from "../lib/projects";
+
 const path = Astro.url.pathname.replace(/\/$/, "") || "/";
 const stripped = BASE && path.startsWith(BASE) ? (path.slice(BASE.length) || "/") : path;
 function isActive(p) {
@@ -7,16 +9,25 @@ function isActive(p) {
   if (p !== "/" && stripped.startsWith(p)) return true;
   return false;
 }
+
+// Each YouTube playlist is its own top-level tab. Short labels keep the nav row
+// compact; fall back to the full category label when there's no override.
+const navLabels = { wip: "WIP" };
+const playlistTabs = categoryKeys.map((key) => ({
+  href: "/" + key,
+  label: navLabels[key] || categories[key],
+}));
 ---
 <header class="site-header">
   <div class="wrap">
     <a href={url("/")} class="brand">Cedar&nbsp;Connor</a>
     <nav class="nav" aria-label="Primary">
-      <a href={url("/")} aria-current={isActive("/") ? "page" : undefined}>Index</a>
-      <a href={url("/work")} aria-current={isActive("/work") ? "page" : undefined}>Work</a>
+      <a href={url("/")} aria-current={isActive("/") ? "page" : undefined}>Home</a>
+      {playlistTabs.map((tab) => (
+        <a href={url(tab.href)} aria-current={isActive(tab.href) ? "page" : undefined}>{tab.label}</a>
+      ))}
       <a href={url("/code")} aria-current={isActive("/code") ? "page" : undefined}>Code</a>
       <a href={url("/about")} aria-current={isActive("/about") ? "page" : undefined}>About</a>
-      <a href={url("/contact")} aria-current={isActive("/contact") ? "page" : undefined}>Contact</a>
     </nav>
   </div>
 </header>

@@ -1,26 +1,17 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
-import { email } from "../lib/projects";
+// Contact is folded into About. Redirect the old route there.
+import { url } from "../lib/url";
+const target = url("/about");
 ---
-<BaseLayout pageId="contact" title="Contact — Cedar Connor">
-  <section class="wrap" style="padding-top: clamp(4rem, 10vh, 8rem); padding-bottom: 4rem;">
-    <div class="eyebrow">Contact</div>
-    <h1 style="margin-top: 1rem;">Let's&nbsp;<em style="color: var(--accent); font-style: italic;">talk</em>.</h1>
-    <p class="lead" style="margin-top: 2rem;">
-      Best way to reach me is e-mail. I read every message and reply within a few days.
-      For freelance, R&amp;D collaborations, or just to nerd out about ComfyUI graphs — say hi.
-    </p>
-    <div style="margin-top: 3rem; display: grid; gap: 1.5rem; max-width: 30rem;">
-      <a
-        href={`mailto:${email}`}
-        rel="noopener"
-        style="display:flex; flex-direction: column; gap: 0.5rem; padding: 1.5rem; border: 1px solid var(--line-strong); border-radius: 6px; transition: all 0.2s var(--ease);"
-        onmouseover="this.style.borderColor='var(--accent)'"
-        onmouseout="this.style.borderColor='var(--line-strong)'"
-      >
-        <span class="eyebrow">Email</span>
-        <span style="font-family: var(--type-display); font-size: clamp(1.4rem, 3vw, 2rem); color: var(--accent);">{email}</span>
-      </a>
-    </div>
-  </section>
-</BaseLayout>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <link rel="canonical" href={target} />
+    <title>Redirecting…</title>
+  </head>
+  <body>
+    <p>Redirecting to <a href={target}>About</a>…</p>
+  </body>
+</html>

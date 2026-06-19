@@ -1,51 +1,26 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { resumePdf, email } from "../lib/projects";
+import { email } from "../lib/projects";
 ---
-<BaseLayout pageId="about" title="About — Cedar Connor" description="Creative technologist with a background in themed entertainment, real-time graphics, and ML.">
-  <section class="wrap" style="padding-top: clamp(3rem, 8vh, 6rem); padding-bottom: 2rem;">
+<BaseLayout pageId="about" title="About — Cedar Connor" description="Generative Effects Supervisor at Sphere Studios — generative-AI VFX for the largest screens ever built.">
+  <section class="wrap" style="padding-top: clamp(4rem, 10vh, 8rem); padding-bottom: 4rem;">
     <div class="eyebrow">About</div>
     <h1 style="margin-top: 1rem;">Cedar&nbsp;Connor.</h1>
-    <p class="lead" style="margin-top: 1.5rem;">
-      I'm a creative technologist working at the seam between real-time graphics, generative AI,
-      and physical experiences. I've prototyped ride systems for SeaWorld Abu Dhabi, designed
-      dome shows in VR, trained custom Flux models on graphics packages, and shipped ComfyUI
-      pipelines exposed as cloud APIs.
+    <p class="lead" style="margin-top: 1.75rem;">
+      I'm a director and technologist with over a decade leading VFX and creative-technology
+      teams. Today I'm Generative Effects Supervisor at Sphere Studios, directing generative-AI
+      VFX for the Las Vegas Sphere — the largest LED screens ever built.
     </p>
     <p class="lead" style="margin-top: 1rem;">
-      The throughline is the same in every project: figure out the unknown unknowns by
+      My work lives between generative AI and traditional VFX: building ComfyUI and diffusion
+      pipelines, training custom models for 360°/spherical formats, and figuring out the unknowns by
       <em style="color: var(--accent); font-style: italic;">building the thing.</em>
     </p>
-  </section>
-
-  <section class="wrap" style="margin-top: 3rem;">
-    <h2 style="margin-bottom: 1.5rem;">Toolbox</h2>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem;">
-      <div>
-        <div class="eyebrow">Real-time / 3D</div>
-        <p style="margin-top: 0.5rem;">Unreal Engine, Niagara, Cinema 4D, Houdini, Gaussian Splat pipelines.</p>
-      </div>
-      <div>
-        <div class="eyebrow">AI / Generative</div>
-        <p style="margin-top: 0.5rem;">ComfyUI, AnimateDiff, ControlNets, custom Flux training, Runway Gen 3, Kling motion brushes, FacePoke, mimic motion.</p>
-      </div>
-      <div>
-        <div class="eyebrow">Computer vision</div>
-        <p style="margin-top: 0.5rem;">YOLO, MediaPipe, plate tracking, IR pointer detection.</p>
-      </div>
-      <div>
-        <div class="eyebrow">XR / Projection</div>
-        <p style="margin-top: 0.5rem;">Quest VR, Antilatency tracking, dome / lens-shift projection, interactive tables.</p>
-      </div>
-      <div>
-        <div class="eyebrow">Pipeline / code</div>
-        <p style="margin-top: 0.5rem;">Python, JavaScript / TypeScript, MIDI integrations, cloud APIs for inference.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="wrap" style="margin-top: 3rem; display: flex; gap: 1rem; flex-wrap: wrap;">
-    <a href={resumePdf} target="_blank" rel="noopener" class="filter-pill" data-active="true" style="text-decoration: none;">Download résumé (PDF)</a>
-    <a href={`mailto:${email}`} class="filter-pill">{email}</a>
+    <p style="margin-top: 2.5rem;">
+      <a
+        href={`mailto:${email}`}
+        style="color: var(--accent); border-bottom: 1px solid currentColor; font-family: var(--type-display); font-size: clamp(1.2rem, 2.5vw, 1.8rem);"
+      >{email}</a>
+    </p>
   </section>
 </BaseLayout>

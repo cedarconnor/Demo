@@ -1,66 +1,18 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
-import ProjectTile from "../../components/ProjectTile.astro";
-import { allProjects, categories, reel } from "../../lib/projects";
-import { BASE } from "../../lib/url";
-
-const projectsExceptReel = allProjects.filter((p) => !reel || p.slug !== reel.slug);
-const counts: Record<string, number> = {};
-for (const p of projectsExceptReel) counts[p.category] = (counts[p.category] || 0) + 1;
-const cats = Object.entries(categories).filter(([k]) => counts[k] > 0);
+// "Work" is now split into per-playlist tabs. Redirect the old combined route
+// to the first playlist so existing links keep working.
+import { url } from "../../lib/url";
+const target = url("/finals");
 ---
-<BaseLayout pageId="work" title="Work — Cedar Connor" description="Every experiment, every prototype, every pipeline.">
-  <section class="wrap" style="padding-top: clamp(3rem, 8vh, 6rem); padding-bottom: 2rem;">
-    <div class="eyebrow">All work — {projectsExceptReel.length} pieces</div>
-    <h1 style="margin-top: 1rem;">Working library.</h1>
-    <p class="lead" style="margin-top: 1.5rem;">
-      Filter by discipline, or keep scrolling. Most of these are R&amp;D pieces — the kind of
-      proofs you build in a Saturday afternoon to see if something will work in production
-      on Monday.
-    </p>
-  </section>
-
-  <section class="wrap">
-    <div class="filters" id="filters">
-      <button class="filter-pill" data-cat="all" data-active="true">All <span class="count">{projectsExceptReel.length}</span></button>
-      {cats.map(([key, label]) => (
-        <button class="filter-pill" data-cat={key}>{label} <span class="count">{counts[key]}</span></button>
-      ))}
-    </div>
-
-    <div class="grid-cinema" id="grid">
-      {projectsExceptReel.map((project) => (
-        <div class="grid-item" data-cat={project.category}>
-          <ProjectTile project={project} />
-        </div>
-      ))}
-    </div>
-  </section>
-
-  <script is:inline>
-    (function () {
-      var grid = document.getElementById("grid");
-      var filters = document.getElementById("filters");
-      if (!grid || !filters) return;
-      filters.addEventListener("click", function (e) {
-        var t = e.target;
-        if (!(t instanceof HTMLElement) || !t.dataset.cat) return;
-        var pills = filters.querySelectorAll(".filter-pill");
-        for (var i = 0; i < pills.length; i++) {
-          pills[i].dataset.active = String(pills[i] === t);
-        }
-        var cat = t.dataset.cat;
-        var items = grid.querySelectorAll(".grid-item");
-        for (var j = 0; j < items.length; j++) {
-          items[j].style.display = cat === "all" || items[j].dataset.cat === cat ? "" : "none";
-        }
-      });
-      var u = new URL(window.location.href);
-      var initial = u.searchParams.get("cat");
-      if (initial) {
-        var btn = filters.querySelector("[data-cat=\"" + initial + "\"]");
-        if (btn) btn.click();
-      }
-    })();
-  </script>
-</BaseLayout>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <link rel="canonical" href={target} />
+    <title>Redirecting…</title>
+  </head>
+  <body>
+    <p>Redirecting to <a href={target}>Finals</a>…</p>
+  </body>
+</html>

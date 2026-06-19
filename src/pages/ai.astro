@@ -1,8 +1,8 @@
 ---
-// Legacy /ai route — taxonomy is now driven by YouTube playlists, so this
-// redirects to the full Work library.
+// Legacy /ai route — taxonomy is now driven by YouTube playlists. Redirect to
+// the first playlist page.
 import { url } from "../lib/url";
-const target = url("/work");
+const target = url("/finals");
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -13,6 +13,6 @@ const target = url("/work");
     <title>Redirecting…</title>
   </head>
   <body>
-    <p>Redirecting to <a href={target}>Work</a>…</p>
+    <p>Redirecting to <a href={target}>Finals</a>…</p>
   </body>
 </html>

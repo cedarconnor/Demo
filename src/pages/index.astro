@@ -1,57 +1,143 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import VideoEmbed from "../components/VideoEmbed.astro";
-import ProjectTile from "../components/ProjectTile.astro";
-import { reel, featuredProjects, categories, projectsByCategory } from "../lib/projects";
-import { url } from "../lib/url";
 
-// Home-page strips, one per playlist (skip the reel + featured shown above).
-const strips = ["before-after", "wip", "experiments"]
-  .filter((key) => categories[key])
-  .map((key) => ({ key, label: categories[key], items: projectsByCategory(key).slice(0, 4) }))
-  .filter((s) => s.items.length > 0);
+// Tools of choice — grouped, current as of the Sphere Studios role.
+const tools = [
+  {
+    group: "Generative AI",
+    items: "ComfyUI · Flux · Wan · Qwen · Hunyuan · Stable Diffusion · LoRA training · ControlNets · image-to-video",
+  },
+  {
+    group: "VFX & 3D",
+    items: "Nuke · Maya · Houdini · Cinema 4D · Gaussian Splats",
+  },
+  {
+    group: "Real-time & finishing",
+    items: "Unreal · Notch · TouchDesigner · DaVinci Resolve · Weavy",
+  },
+];
 
-const featuredNoReel = featuredProjects;
-const reelId = reel ? reel.youtubeId : "";
-const reelTitle = reel ? reel.title : "Demo Reel";
+// Highlighted work. These are professional credits — not public video — so they
+// appear as a text credits list rather than video tiles.
+const sphereResidencies = ["Kenny Chesney", "Backstreet Boys", "Zac Brown", "No Doubt"];
+const recentProjects = ["SeaWorld Abu Dhabi", "SeaWorld Orlando"];
 ---
 <BaseLayout pageId="home">
-  <section class="wrap" style="padding-top: clamp(3rem, 8vh, 6rem); padding-bottom: 3rem;">
-    <div class="eyebrow">Creative technologist · Themed entertainment · AI · Real-time</div>
-    <h1 style="margin-top: 1rem;">
-      I prototype the<br />
-      <em style="font-style: italic; color: var(--accent);">unprovable.</em>
+  <section class="wrap" style="padding-top: clamp(3rem, 8vh, 6rem); padding-bottom: 2rem;">
+    <div class="eyebrow">Generative Effects Supervisor · Sphere Studios</div>
+    <h1 style="margin-top: 1.25rem;">
+      I direct generative VFX<br />
+      for the <em style="font-style: italic; color: var(--accent);">largest screens ever built.</em>
     </h1>
-    <p class="lead" style="margin-top: 1.5rem;">
-      I build with Unreal Engine, ComfyUI, MediaPipe, projection systems, and VR rigs to
-      make ideas visible before they are real. Below is a working set of experiments
-      that I keep refreshed.
+    <p class="lead" style="margin-top: 1.75rem;">
+      I'm Cedar Connor, Generative Effects Supervisor at Sphere Studios — leading generative-AI
+      VFX from pre-production through delivery on the Las Vegas Sphere. I direct a team of
+      generative artists and build custom ComfyUI and diffusion pipelines for 360°/spherical
+      content, working at the seam between generative AI and traditional VFX.
     </p>
   </section>
 
-  <section class="wrap">
-    <VideoEmbed youtubeId={reelId} title={reelTitle} variant="hero" autoplay={true} />
-  </section>
-
-  <section class="wrap" style="margin-top: 5rem;">
-    <header style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:1.5rem;">
-      <h2>Featured</h2>
-      <a href={url("/work")} class="eyebrow">All work</a>
-    </header>
-    <div class="grid-cinema">
-      {featuredNoReel.map((project) => <ProjectTile project={project} />)}
+  <!-- Tools of choice -->
+  <section class="wrap" style="margin-top: 3.5rem;">
+    <div class="eyebrow">Tools of choice</div>
+    <div class="tools">
+      {tools.map((t) => (
+        <div class="tool-row">
+          <div class="tool-group">{t.group}</div>
+          <div class="tool-items">{t.items}</div>
+        </div>
+      ))}
     </div>
   </section>
 
-  {strips.map((strip) => (
-    <section class="wrap" style="margin-top: 5rem;">
-      <header style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:1.5rem;">
-        <h2>{strip.label}</h2>
-        <a href={url("/work?cat=" + strip.key)} class="eyebrow">More</a>
-      </header>
-      <div class="grid-cinema">
-        {strip.items.map((project) => <ProjectTile project={project} />)}
-      </div>
-    </section>
-  ))}
+  <!-- Highlighted work — credits, no video -->
+  <section class="wrap" style="margin-top: 4.5rem; margin-bottom: 2rem;">
+    <div class="eyebrow">Selected work</div>
+
+    <h2 style="margin-top: 0.85rem; margin-bottom: 1.5rem;">At Sphere</h2>
+    <ul class="credits">
+      {sphereResidencies.map((name) => (
+        <li class="credit">
+          <span class="credit-name">{name}</span>
+          <span class="credit-note">Residency</span>
+        </li>
+      ))}
+    </ul>
+
+    <h2 style="margin-top: 3rem; margin-bottom: 1.5rem;">Also recently</h2>
+    <ul class="credits">
+      {recentProjects.map((name) => (
+        <li class="credit">
+          <span class="credit-name">{name}</span>
+          <span class="credit-note">Themed entertainment</span>
+        </li>
+      ))}
+    </ul>
+  </section>
 </BaseLayout>
+
+<style>
+  /* Tools of choice — editorial rows */
+  .tools {
+    margin-top: 1.25rem;
+    max-width: 70rem;
+  }
+  .tool-row {
+    display: grid;
+    grid-template-columns: minmax(140px, 15rem) 1fr;
+    gap: 1.5rem;
+    padding: 1.1rem 0;
+    border-top: 1px solid var(--line);
+  }
+  .tool-row:last-child {
+    border-bottom: 1px solid var(--line);
+  }
+  .tool-group {
+    font-family: var(--type-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent-soft);
+  }
+  .tool-items {
+    color: var(--fg);
+    line-height: 1.6;
+  }
+  @media (max-width: 640px) {
+    .tool-row {
+      grid-template-columns: 1fr;
+      gap: 0.4rem;
+    }
+  }
+
+  /* Selected-work credits list */
+  .credits {
+    list-style: none;
+    max-width: 70rem;
+  }
+  .credit {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 1rem 0;
+    border-top: 1px solid var(--line);
+  }
+  .credit:last-child {
+    border-bottom: 1px solid var(--line);
+  }
+  .credit-name {
+    font-family: var(--type-display);
+    font-size: clamp(1.4rem, 3vw, 2.2rem);
+    letter-spacing: -0.01em;
+    color: var(--fg);
+  }
+  .credit-note {
+    font-family: var(--type-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--fg-muted);
+    white-space: nowrap;
+  }
+</style>

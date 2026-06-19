@@ -1,0 +1,35 @@
+---
+// One playlist's worth of videos. Each top-level playlist page (finals,
+// before-after, wip, experiments) is a thin wrapper around this component.
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ProjectTile from "./ProjectTile.astro";
+import { categories, projectsByCategory } from "../lib/projects";
+
+interface Props {
+  category: string;
+}
+const { category } = Astro.props;
+const label = categories[category] || category;
+const items = projectsByCategory(category);
+const count = items.length;
+---
+<BaseLayout
+  pageId={category}
+  title={`${label} — Cedar Connor`}
+  description={`${label} — ${count} ${count === 1 ? "piece" : "pieces"} from Cedar Connor's YouTube.`}
+>
+  <section class="wrap" style="padding-top: clamp(3rem, 8vh, 6rem); padding-bottom: 2rem;">
+    <div class="eyebrow">{label} · {count} {count === 1 ? "piece" : "pieces"}</div>
+    <h1 style="margin-top: 1rem;">{label}.</h1>
+  </section>
+
+  <section class="wrap">
+    {count > 0 ? (
+      <div class="grid-cinema">
+        {items.map((project) => <ProjectTile project={project} />)}
+      </div>
+    ) : (
+      <p class="lead">Nothing in this playlist yet — check back soon.</p>
+    )}
+  </section>
+</BaseLayout>
