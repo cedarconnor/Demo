@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Rebuild daily so videos you add to your YouTube playlists appear on the site
+  # automatically. Adjust the cron (UTC) or remove if you only want push builds.
+  schedule:
+    - cron: "0 9 * * *"
 
 permissions:
   contents: read
@@ -25,6 +29,10 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+        env:
+          # Add this in repo Settings → Secrets and variables → Actions.
+          # Without it, the build uses the committed projects.json.
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist

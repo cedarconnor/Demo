@@ -1,24 +1,18 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
-import ProjectTile from "../components/ProjectTile.astro";
-import { projectsByCategory } from "../lib/projects";
-
-const aiProjects = projectsByCategory("ai");
+// Legacy /ai route — taxonomy is now driven by YouTube playlists, so this
+// redirects to the full Work library.
+import { url } from "../lib/url";
+const target = url("/work");
 ---
-<BaseLayout pageId="ai" title="AI / Generative — Cedar Connor" description="Generative AI, ComfyUI, custom Flux models, AnimateDiff, Runway, Kling.">
-  <section class="wrap" style="padding-top: clamp(3rem, 8vh, 6rem); padding-bottom: 2rem;">
-    <div class="eyebrow">{aiProjects.length} AI experiments</div>
-    <h1 style="margin-top: 1rem;">AI&nbsp;<em style="color: var(--accent); font-style: italic;">/&nbsp;Generative</em></h1>
-    <p class="lead" style="margin-top: 1.5rem;">
-      Custom Flux fine-tunes, Kling motion brushes, AnimateDiff with ControlNets, MIDI-driven
-      ComfyUI graphs, audio-reactive workflows, and a few experiments in deploying ComfyUI as
-      a parameterised cloud API.
-    </p>
-  </section>
-
-  <section class="wrap">
-    <div class="grid-cinema">
-      {aiProjects.map((p) => <ProjectTile project={p} />)}
-    </div>
-  </section>
-</BaseLayout>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <link rel="canonical" href={target} />
+    <title>Redirecting…</title>
+  </head>
+  <body>
+    <p>Redirecting to <a href={target}>Work</a>…</p>
+  </body>
+</html>

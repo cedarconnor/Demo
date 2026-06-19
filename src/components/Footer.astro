@@ -1,5 +1,5 @@
 ---
-import { email } from "../lib/projects";
+import { email, youtubeChannelUrl } from "../lib/projects";
 const year = new Date().getFullYear();
 ---
 <footer class="site-footer">
@@ -7,10 +7,15 @@ const year = new Date().getFullYear();
     <div>
       <h2 class="display" style="font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: 1rem;">Let's build something.</h2>
       <p class="lead"><a href={`mailto:${email}`} style="color: var(--accent); border-bottom: 1px solid currentColor;">{email}</a></p>
+      <p style="margin-top: 1rem; display: flex; gap: 1.25rem; font-family: var(--type-mono); font-size: 0.72rem; letter-spacing: 0.15em; text-transform: uppercase;">
+        {youtubeChannelUrl && <a href={youtubeChannelUrl} target="_blank" rel="noopener">YouTube ↗</a>}
+        <a href="https://github.com/cedarconnor" target="_blank" rel="noopener">GitHub ↗</a>
+        <a href="https://huggingface.co/CedarC" target="_blank" rel="noopener">Hugging Face ↗</a>
+      </p>
     </div>
     <div class="colophon">
       <p>&copy; {year} Cedar Connor</p>
-      <p style="margin-top:0.4rem;">Built with Astro · Hosted on GitHub Pages</p>
+      <p style="margin-top:0.4rem;">Built with Astro · Synced from YouTube · GitHub Pages</p>
     </div>
   </div>
 </footer>

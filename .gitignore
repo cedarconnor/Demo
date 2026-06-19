@@ -5,3 +5,22 @@ node_modules
 dist
 .astro
 .vscode
+
+# Video assets — acquisition material, not part of the site
+# (NOTE: do not add *.ts here — .ts is TypeScript in this project)
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+*.m3u8
+DemoVideos/
+
+# Python download/acquisition scripts — setup tooling, not the website
+*.py
+download_wix*.ps1
+stream_urls.tsv
+all_video_ids.json
+unique_ids.txt
+wix_video_urls.json
+wix_download_log.txt

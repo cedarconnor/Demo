@@ -1,110 +1,1755 @@
 {
   "site": {
-    "wixUrl": "https://cedarconnor.wixsite.com/mysite",
-    "siteId": "3eb2c756-2336-4d74-9e87-1411ab3f273b",
     "owner": "Cedar Connor",
     "email": "cedarconnor@gmail.com",
-    "resumePdf": "https://3eb2c756-2336-4d74-9e87-1411ab3f273b.usrfiles.com/ugd/733af2_754c8acd15d248faab4a0ad5270fd9ae.pdf",
-    "olderResumes": [
-      "https://3eb2c756-2336-4d74-9e87-1411ab3f273b.usrfiles.com/ugd/733af2_0d173f580ee649a99d7b92b06457909b.pdf",
-      "https://3eb2c756-2336-4d74-9e87-1411ab3f273b.usrfiles.com/ugd/733af2_15b8485e1634416fa9fb2df84cbbd1ce.pdf"
-    ],
-    "pages": ["home", "demo-reel", "experiments", "ai", "resume", "contact"]
+    "resumePdf": "/resume.pdf",
+    "youtubeChannelUrl": "https://www.youtube.com/@cedarconnor",
+    "reelId": "xUer7Y42WIY",
+    "featuredSlugs": [
+      "hkdl-momentous",
+      "tree-of-life-awakenings",
+      "flyingdreams-final",
+      "meetthegallery-hd",
+      "elementapromo",
+      "mt-wynn-case-study-reel-v2-ipad",
+      "happily-ever-after-projection-reference",
+      "mt-hea-reel-2017-v02"
+    ]
+  },
+  "categories": {
+    "finals": "Finals",
+    "before-after": "Before & After",
+    "wip": "Work in Progress",
+    "experiments": "Experiments"
   },
   "videos": [
-    { "wixId": "733af2_eb622d402af74da1bddebe3045d18643", "slug": "demo-reel-hero", "title": "Demo Reel", "description": "Main demo reel hero video.", "category": "reel", "sourcePage": "demo-reel", "youtubeId": "" },
-
-    { "wixId": "733af2_f9c4712a443643629f7d5c6af3783d8b", "slug": "snoop-fluids", "title": "SnoopFluids", "description": "Real-time fluid simulation experiment.", "category": "realtime", "sourcePage": "experiments", "duration": "00:21", "youtubeId": "" },
-    { "wixId": "733af2_308e0380af694c8680e4bbf1160e215c", "slug": "mediapipe-particles", "title": "MediaPipeParticles", "description": "Vibe coding particles driven by a MediaPipe skeleton.", "category": "computer-vision", "sourcePage": "experiments", "duration": "00:20", "youtubeId": "" },
-    { "wixId": "733af2_c44ea7fcd78d42328d75fca41bd4ce20", "slug": "yolo-tracking", "title": "Yolo Tracking", "description": "Plate-tracking tests with a YOLO model.", "category": "computer-vision", "sourcePage": "experiments", "duration": "00:41", "youtubeId": "" },
-    { "wixId": "733af2_ecec0467752d457da70eeafab24ea273", "slug": "restaurant-vr", "title": "Restaurant VR", "description": "Quest VR system for restaurant previs.", "category": "vr", "sourcePage": "experiments", "duration": "01:18", "youtubeId": "" },
-    { "wixId": "733af2_3f7ecf763a414031a879472023dec0ab", "slug": "plate-tracking", "title": "Plate Tracking", "description": "Testing plate tracking.", "category": "computer-vision", "sourcePage": "experiments", "duration": "00:16", "youtubeId": "" },
-    { "wixId": "733af2_58cc541d0c554ce1b26a18c212f58389", "slug": "splat", "title": "Splat", "description": "Python script that builds a camera array in C4D for conversion to a Gaussian Splat.", "category": "tools", "sourcePage": "experiments", "duration": "00:12", "youtubeId": "" },
-    { "wixId": "733af2_0f6e2cac437a42149a154b7df3f61b9f", "slug": "ir-pointer", "title": "IR_Pointer", "description": "YOLO model trained on an infrared laser pointer.", "category": "computer-vision", "sourcePage": "experiments", "duration": "00:42", "youtubeId": "" },
-    { "wixId": "733af2_655ef3036fde4cd880cb9cb32b7bc2bf", "slug": "cross-shoot-projector", "title": "CrossShootProjector", "description": "Sample projection design.", "category": "projection", "sourcePage": "experiments", "duration": "00:13", "youtubeId": "" },
-    { "wixId": "733af2_8252d18f8ee145a7b7806c90c12e5a03", "slug": "bubbles", "title": "Bubbles", "description": "Testing bubbles on an interactive table.", "category": "interactive", "sourcePage": "experiments", "duration": "01:01", "youtubeId": "" },
-    { "wixId": "733af2_d72a73e8d1c44989969e9dbab8277f10", "slug": "interactive-room-prototype", "title": "Interactive Room Prototype", "description": "Prototyping early environment for an interactive room.", "category": "interactive", "sourcePage": "experiments", "duration": "00:22", "youtubeId": "" },
-    { "wixId": "733af2_086a619e3e454e138b993930dc4d7706", "slug": "castle-ue4", "title": "Castle UE4", "description": "Testing castle geometry in Unreal Engine.", "category": "realtime", "sourcePage": "experiments", "duration": "00:11", "youtubeId": "" },
-    { "wixId": "733af2_53c903cea84042e7a418a60e8af3829c", "slug": "quest-dome", "title": "Quest Dome Test", "description": "Testing a dome show in a VR headset.", "category": "vr", "sourcePage": "experiments", "duration": "01:51", "youtubeId": "" },
-    { "wixId": "733af2_4945fd3c5a594f20bd0e8c2bd9489b6c", "slug": "dome-lens-sample", "title": "DomeLensSample", "description": "Dome lens projection sample.", "category": "projection", "sourcePage": "experiments", "duration": "01:22", "youtubeId": "" },
-    { "wixId": "733af2_ff23752f633f4738aae159f06dbbf2b8", "slug": "nebula", "title": "Nebula", "description": "Prototyping nebula environments.", "category": "realtime", "sourcePage": "experiments", "duration": "00:08", "youtubeId": "" },
-    { "wixId": "733af2_7ab2e2e3c80241f4a3e4cda515832114", "slug": "antilatency", "title": "Antilatency", "description": "Testing the Antilatency tracking system.", "category": "vr", "sourcePage": "experiments", "duration": "00:13", "youtubeId": "" },
-    { "wixId": "733af2_0d0e72aa39ce46b4a81a2f34eca78cbb", "slug": "small-world-rehearsals", "title": "Small World Rehearsals", "description": "Testing new content for Small World.", "category": "themed", "sourcePage": "experiments", "duration": "00:39", "youtubeId": "" },
-    { "wixId": "733af2_dc1e78b769b54e3a88e9c2d0ce5b8a71", "slug": "seaworld-abudhabi-1", "title": "SeaWorld Abu Dhabi Breakdown", "description": "Small SeaWorld Abu Dhabi breakdown.", "category": "themed", "sourcePage": "experiments", "duration": "00:11", "youtubeId": "" },
-    { "wixId": "733af2_5bb7b501970444d9bb870d9f2ced099b", "slug": "seaworld-breakdown", "title": "SeaWorld Breakdown", "description": "Small SeaWorld breakdown.", "category": "themed", "sourcePage": "experiments", "duration": "00:06", "youtubeId": "" },
-    { "wixId": "733af2_f425966ad4514d75a43b65b995171ca4", "slug": "motorcycle-prototype", "title": "Motorcycle Ride Prototype", "description": "Prototyping a motorcycle riding experience.", "category": "themed", "sourcePage": "experiments", "duration": "00:33", "youtubeId": "" },
-    { "wixId": "733af2_a50d18b8b8714be8875e634fded5565e", "slug": "seaworld-exoskeleton", "title": "SeaWorld Exoskeleton", "description": "Prototyping SeaWorld Abu Dhabi ride system exoskeleton.", "category": "themed", "sourcePage": "experiments", "duration": "00:02", "youtubeId": "" },
-    { "wixId": "733af2_a47781cff45147db9c2c869c30a0c96b", "slug": "fluid-ninja", "title": "Fluid Ninja", "description": "Testing Fluid Ninja in Unreal Engine.", "category": "realtime", "sourcePage": "experiments", "duration": "00:10", "youtubeId": "" },
-    { "wixId": "733af2_818cfbd9a0504491856241a54d74aa28", "slug": "seaworld-environment-tests", "title": "SeaWorld Environment Tests", "description": "Early environment testing for SeaWorld.", "category": "themed", "sourcePage": "experiments", "duration": "00:05", "youtubeId": "" },
-    { "wixId": "733af2_aaf7b24d7ceb4b9fb844a9dd7b6f7b6f", "slug": "kelp-forest", "title": "Stylized Kelp Forest", "description": "Prototyping a stylized kelp forest in Unreal Engine.", "category": "realtime", "sourcePage": "experiments", "duration": "00:39", "youtubeId": "" },
-    { "wixId": "733af2_a2121deea34a45a0ab2ded3b7eacf0b7", "slug": "thermal-vent", "title": "Stylized Thermal Vent", "description": "Prototyping a stylized thermal vent in Unreal Engine.", "category": "realtime", "sourcePage": "experiments", "duration": "00:13", "youtubeId": "" },
-    { "wixId": "733af2_a8b9893d8127415f9beb0addc697c702", "slug": "flocking-system", "title": "Deterministic Flocking System", "description": "Prototyping a deterministic flocking system in Unreal Engine.", "category": "realtime", "sourcePage": "experiments", "duration": "00:14", "youtubeId": "" },
-
-    { "wixId": "733af2_054c63d395f042438ba740e97debd320", "slug": "ai-clip-1", "title": "AI Clip 1", "description": "AI experiment.", "category": "ai", "sourcePage": "ai", "youtubeId": "" },
-    { "wixId": "733af2_3f91c78aeba249fea12a462f943c57d3", "slug": "ai-clip-2", "title": "AI Clip 2", "description": "AI experiment.", "category": "ai", "sourcePage": "ai", "youtubeId": "" },
-    { "wixId": "733af2_aa5511e7b21f4757a082986df1c9bd26", "slug": "image-to-3d-pipeline", "title": "Image-to-3D Pipeline", "description": "Testing an image-to-3D pipeline.", "category": "ai", "sourcePage": "ai", "duration": "00:03", "youtubeId": "" },
-    { "wixId": "733af2_ee6227a14c2b496c95c3a432f89451bf", "slug": "comfyui-water", "title": "ComfyUI Water Test", "description": "ComfyUI water shader test.", "category": "ai", "sourcePage": "ai", "duration": "00:05", "youtubeId": "" },
-    { "wixId": "733af2_58f19fee2e714e54993fcd9805948e9e", "slug": "wan-comfyui-1", "title": "WAN model test 1", "description": "Testing the WAN model in ComfyUI.", "category": "ai", "sourcePage": "ai", "duration": "00:05", "youtubeId": "" },
-    { "wixId": "733af2_47bb8a8612b043249eba186d96d0fc77", "slug": "wan-comfyui-2", "title": "WAN model test 2", "description": "Testing the WAN model in ComfyUI.", "category": "ai", "sourcePage": "ai", "duration": "00:05", "youtubeId": "" },
-    { "wixId": "733af2_084e9ef414b8408081ee7ace400266b6", "slug": "wan-comfyui-3", "title": "WAN model test 3", "description": "Testing the WAN model in ComfyUI.", "category": "ai", "sourcePage": "ai", "duration": "00:02", "youtubeId": "" },
-    { "wixId": "733af2_22fc7dc7785341b6b10d4ce0d4fc47ff", "slug": "ai-clip-8", "title": "AI Clip 8", "description": "AI experiment.", "category": "ai", "sourcePage": "ai", "duration": "00:15", "youtubeId": "" },
-    { "wixId": "733af2_b60582e5b97e4fc79d299656125710f3", "slug": "ai-clip-9", "title": "AI Clip 9", "description": "AI experiment.", "category": "ai", "sourcePage": "ai", "duration": "00:12", "youtubeId": "" },
-    { "wixId": "733af2_e97f71e20b7749c5bf372ca074ea4a05", "slug": "wan-comfyui-4", "title": "WAN model test 4", "description": "Testing the WAN model in ComfyUI.", "category": "ai", "sourcePage": "ai", "duration": "00:05", "youtubeId": "" },
-    { "wixId": "733af2_8d26a783650b4893892cba98d5b74303", "slug": "wan-comfyui-5", "title": "WAN model test 5", "description": "Testing the WAN model in ComfyUI.", "category": "ai", "sourcePage": "ai", "duration": "00:02", "youtubeId": "" },
-    { "wixId": "733af2_8e0fb80b6a7b4b97a27e6dc6ab35b92c", "slug": "ai-clip-12", "title": "AI Clip 12", "description": "AI experiment.", "category": "ai", "sourcePage": "ai", "duration": "00:09", "youtubeId": "" },
-    { "wixId": "733af2_c0ad0183121d48f7ac09196c72f74b98", "slug": "ai-projection-mapping", "title": "AI Projection Mapping", "description": "Projection mapping with AI.", "category": "ai", "sourcePage": "ai", "duration": "02:26", "youtubeId": "" },
-    { "wixId": "733af2_488832c2418247c89130b5f7f321a3d9", "slug": "ai-clip-14", "title": "AI Clip 14", "description": "AI experiment.", "category": "ai", "sourcePage": "ai", "duration": "00:03", "youtubeId": "" },
-    { "wixId": "733af2_801bc89e61e747beb515b711895675bd", "slug": "ai-clip-15", "title": "AI Clip 15", "description": "AI experiment.", "category": "ai", "sourcePage": "ai", "duration": "00:03", "youtubeId": "" },
-    { "wixId": "733af2_08d1147c943c476faecf939f80b90c61", "slug": "runway-gen3-restyle", "title": "Runway Gen 3 Alpha Restyle", "description": "Testing Runway Gen 3 Alpha restyle feature.", "category": "ai", "sourcePage": "ai", "duration": "00:05", "youtubeId": "" },
-    { "wixId": "733af2_6351e94aad764763a3308ac0c62ce930", "slug": "gen3-vid-to-vid", "title": "Gen 3 Alpha Video-to-Video", "description": "Testing the new video-to-video in Gen 3 Alpha.", "category": "ai", "sourcePage": "ai", "duration": "00:05", "youtubeId": "" },
-    { "wixId": "733af2_6c698e5b51d8414b97b0991c6af48ee3", "slug": "wan-video-1", "title": "WAN Video 1", "description": "Testing the new WAN video model.", "category": "ai", "sourcePage": "ai", "duration": "00:05", "youtubeId": "" },
-    { "wixId": "733af2_f4fdc3470be54215b99b9aa25d1441c0", "slug": "wan-video-2", "title": "WAN Video 2", "description": "Testing the new WAN video model.", "category": "ai", "sourcePage": "ai", "duration": "00:05", "youtubeId": "" },
-    { "wixId": "733af2_7fd0ad8b3ef7465499928493a82029e1", "slug": "wan-video-3", "title": "WAN Video 3", "description": "Testing the new WAN video model.", "category": "ai", "sourcePage": "ai", "duration": "00:05", "youtubeId": "" },
-    { "wixId": "733af2_f431581984bf4d7d96867607a229ad68", "slug": "image-to-video-1", "title": "Image-to-Video 1", "description": "Image-to-video tests.", "category": "ai", "sourcePage": "ai", "duration": "01:21", "youtubeId": "" },
-    { "wixId": "733af2_4de7fa456fc7461baaa9c9213c882b96", "slug": "image-to-video-2", "title": "Image-to-Video 2", "description": "Image-to-video tests.", "category": "ai", "sourcePage": "ai", "duration": "01:36", "youtubeId": "" },
-    { "wixId": "733af2_1680dfadc04b467dac788fb54efbf5fa", "slug": "gen3-image-to-video-1", "title": "Gen 3 Alpha Image-to-Video 1", "description": "Playing around with image-to-video in Gen 3 Alpha.", "category": "ai", "sourcePage": "ai", "duration": "00:10", "youtubeId": "" },
-    { "wixId": "733af2_28dc2fdd51f7449eaf1f89d73c69e6da", "slug": "gen3-image-to-video-2", "title": "Gen 3 Alpha Image-to-Video 2", "description": "Playing around with image-to-video in Gen 3 Alpha.", "category": "ai", "sourcePage": "ai", "duration": "00:10", "youtubeId": "" },
-    { "wixId": "733af2_bed4822b71664fd2b07eb421130fac5c", "slug": "face-fusion-tom-hanks", "title": "Face Fusion Aging Test", "description": "Testing Face Fusion to age old footage of Tom Hanks.", "category": "ai", "sourcePage": "ai", "duration": "00:18", "youtubeId": "" },
-    { "wixId": "733af2_d8258da9b2e7425e9e180e09dc088c8f", "slug": "mimic-motion-1", "title": "Mimic Motion 1", "description": "Testing out mimic motion.", "category": "ai", "sourcePage": "ai", "duration": "00:01", "youtubeId": "" },
-    { "wixId": "733af2_ea3f22598f9349f1989f1bca29130a0e", "slug": "mimic-motion-2", "title": "Mimic Motion 2", "description": "Testing out mimic motion.", "category": "ai", "sourcePage": "ai", "duration": "00:02", "youtubeId": "" },
-    { "wixId": "733af2_567729f6e98448bd9ee998292f50f64a", "slug": "facepoke", "title": "FacePoke", "description": "Playing around with FacePoke.", "category": "ai", "sourcePage": "ai", "duration": "00:42", "youtubeId": "" },
-    { "wixId": "733af2_d6c1f3cc3dda4cf2a607a5699bce5ffc", "slug": "playblast-to-gen3", "title": "3D Playblast to Gen 3", "description": "Testing 3D playblast through Runway Gen 3.", "category": "ai", "sourcePage": "ai", "duration": "00:04", "youtubeId": "" },
-    { "wixId": "733af2_8c8b0f05b56e4bc69c1da07166470980", "slug": "flux-graphics-package", "title": "Custom Flux + Kling: Graphics Package", "description": "Trained a custom Flux model on a graphics package, then animated it with a Kling motion brush.", "category": "ai", "sourcePage": "ai", "duration": "00:05", "youtubeId": "" },
-    { "wixId": "733af2_7524c762ed704b37bf5765ba2fc550db", "slug": "flux-kids-toy", "title": "Custom Flux + Kling: Kid's Toy", "description": "Trained a custom Flux model on a kid's toy, then animated with the Kling motion brush.", "category": "ai", "sourcePage": "ai", "duration": "00:05", "youtubeId": "" },
-    { "wixId": "733af2_68d6b1720a35455ab531c37127fc478e", "slug": "flux-kling-1", "title": "Custom Flux to Kling Motion Brush", "description": "Custom Flux model to Kling motion brush.", "category": "ai", "sourcePage": "ai", "duration": "00:05", "youtubeId": "" },
-    { "wixId": "733af2_1c7cad9c1c4347d693f291bf517e7ec4", "slug": "flux-kling-2", "title": "Custom Flux to Kling", "description": "Custom Flux model to Kling.", "category": "ai", "sourcePage": "ai", "duration": "00:05", "youtubeId": "" },
-    { "wixId": "733af2_a0a6c8c6aac449c99b16cc848cd161e6", "slug": "griffith-snow-timelapse", "title": "Griffith Observatory Snow Time-lapse", "description": "Converted an image of Griffith Observatory into a snowy LA time-lapse.", "category": "ai", "sourcePage": "ai", "duration": "00:14", "youtubeId": "" },
-    { "wixId": "733af2_96dd97d1db8b40ed873abd31b0550dca", "slug": "flux-self-kling", "title": "Custom Flux Self-Portrait + Kling", "description": "Custom Flux model trained on my face, converted to Kling video.", "category": "ai", "sourcePage": "ai", "duration": "00:05", "youtubeId": "" },
-    { "wixId": "733af2_6dbbb5af82d04794bfd4d6a2ede8bedb", "slug": "comfyui-cloud-api", "title": "ComfyUI Cloud API Workflow", "description": "Deployed a custom ComfyUI workflow with a cloud API endpoint, exposing only the relevant parameters for simplified execution.", "category": "ai", "sourcePage": "ai", "duration": "00:13", "youtubeId": "" },
-    { "wixId": "733af2_1d2e7cf59ec94d538e567f139a5d6a43", "slug": "comfyui-cloth", "title": "ComfyUI Cloth", "description": "Testing cloth simulation in ComfyUI.", "category": "ai", "sourcePage": "ai", "duration": "00:04", "youtubeId": "" },
-    { "wixId": "733af2_4ba1c1c621024bc6925167d61cbc8fc3", "slug": "ai-clip-37", "title": "AI Clip 37", "description": "AI experiment.", "category": "ai", "sourcePage": "ai", "duration": "00:04", "youtubeId": "" },
-    { "wixId": "733af2_e27c4317b1454f9b8c61e0da2604d004", "slug": "svd-controlnet", "title": "SVD + Next ControlNet", "description": "SVD with ControlNet conditioning.", "category": "ai", "sourcePage": "ai", "duration": "00:04", "youtubeId": "" },
-    { "wixId": "733af2_3c22015bed5240af8fa7052289efba2c", "slug": "image-to-svd", "title": "Image to SVD", "description": "Testing Image to SVD.", "category": "ai", "sourcePage": "ai", "duration": "00:01", "youtubeId": "" },
-    { "wixId": "733af2_cbb45a7d77904482a5e5d5c773beffb0", "slug": "dance-variation", "title": "Dance Variation Test", "description": "Dance variation test.", "category": "ai", "sourcePage": "ai", "duration": "00:04", "youtubeId": "" },
-    { "wixId": "733af2_dafd9d32ef264c2ab1314d697a1cce37", "slug": "fire-dance", "title": "Fire Dance", "description": "Fire dance test.", "category": "ai", "sourcePage": "ai", "duration": "00:16", "youtubeId": "" },
-    { "wixId": "733af2_20e528d7216d44dea5b58b0fcc6886d0", "slug": "rgb-pack-comfyui", "title": "RGB Pack Maps to ComfyUI", "description": "Testing RGB pack maps to drive ComfyUI animation.", "category": "ai", "sourcePage": "ai", "duration": "00:41", "youtubeId": "" },
-    { "wixId": "733af2_56f35e08484a425b827311539c1656b3", "slug": "animatediff-controlnet", "title": "AnimateDiff + ControlNets", "description": "Experimenting with AnimateDiff and ControlNets.", "category": "ai", "sourcePage": "ai", "duration": "00:28", "youtubeId": "" },
-    { "wixId": "733af2_4405a22bcb7543e998a84e467ff8c811", "slug": "blend-3d-animatediff", "title": "Blending 3D Renders with AnimateDiff", "description": "Blending 3D renders with AnimateDiff.", "category": "ai", "sourcePage": "ai", "duration": "00:22", "youtubeId": "" },
-    { "wixId": "733af2_3442cae5d57940c798d0c8c9a2d04758", "slug": "animatediff-experiments-1", "title": "AnimateDiff Experiments 1", "description": "AnimateDiff experiments.", "category": "ai", "sourcePage": "ai", "duration": "00:04", "youtubeId": "" },
-    { "wixId": "733af2_0798027ddb1c4b4593277bdf3820c784", "slug": "midi-comfyui", "title": "MIDI-driven ComfyUI", "description": "Testing a workflow in ComfyUI driven by MIDI data.", "category": "ai", "sourcePage": "ai", "duration": "00:49", "youtubeId": "" },
-    { "wixId": "733af2_b016f8e31af44e67926d03415518c030", "slug": "comfyui-vid-to-vid", "title": "ComfyUI Vid-to-Vid", "description": "Experimenting with video-to-video workflow in ComfyUI.", "category": "ai", "sourcePage": "ai", "duration": "00:05", "youtubeId": "" },
-    { "wixId": "733af2_870bfce339be47ee9ae5a03d12d15155", "slug": "comfyui-pose-depth", "title": "ComfyUI OpenPose + Depth", "description": "Testing ComfyUI OpenPose and depth maps.", "category": "ai", "sourcePage": "ai", "duration": "00:05", "youtubeId": "" },
-    { "wixId": "733af2_1732f00bf4e04d1b87f33bba0cfd5e0d", "slug": "controlnets-projected-table", "title": "ControlNets to Projected Table", "description": "ControlNets mapping to a projected table.", "category": "ai", "sourcePage": "ai", "duration": "00:46", "youtubeId": "" },
-    { "wixId": "733af2_7ac9090098424b59aeed5a69ce395bc2", "slug": "audio-animatediff-1", "title": "Audio Activated AnimateDiff 1", "description": "Testing audio activated AnimateDiff.", "category": "ai", "sourcePage": "ai", "duration": "00:38", "youtubeId": "" },
-    { "wixId": "733af2_b12587e0f49a448c829562f9b62aca06", "slug": "animatediff-experiments-2", "title": "AnimateDiff Experiments 2", "description": "AnimateDiff experiments.", "category": "ai", "sourcePage": "ai", "duration": "00:02", "youtubeId": "" },
-    { "wixId": "733af2_d3a66e13003f4f1f8043159d435d18b6", "slug": "audio-animatediff-2", "title": "Audio Activated AnimateDiff 2", "description": "Testing audio activated AnimateDiff.", "category": "ai", "sourcePage": "ai", "duration": "00:36", "youtubeId": "" },
-    { "wixId": "733af2_bc104680f7be48ca93ca583620d3d6a7", "slug": "animatediff-testing", "title": "AnimateDiff Testing", "description": "AnimateDiff testing.", "category": "ai", "sourcePage": "ai", "duration": "00:10", "youtubeId": "" },
-    { "wixId": "733af2_75a846f2089c467c97b0f90d31d14f33", "slug": "powder-bursts", "title": "Multicolored Powder Bursts", "description": "Multicolored powder bursts test set to music in a few styles.", "category": "ai", "sourcePage": "ai", "duration": "00:30", "youtubeId": "" }
-  ],
-  "categories": {
-    "reel": "Demo Reel",
-    "realtime": "Real-time / Unreal",
-    "vr": "VR / XR",
-    "ai": "AI / Generative",
-    "computer-vision": "Computer Vision",
-    "projection": "Projection",
-    "interactive": "Interactive Installations",
-    "themed": "Themed Entertainment",
-    "tools": "Tools & Pipelines"
-  }
+    {
+      "slug": "hkdl-momentous",
+      "title": "HKDL Momentous",
+      "description": "Short review/reference clip for HKDL Momentous.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "-p8kgnOujSY"
+    },
+    {
+      "slug": "yolov8-inference-test",
+      "title": "YOLOv8 Inference Test",
+      "description": "Short computer-vision object-detection inference test clip.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "2pfft0OP-k0"
+    },
+    {
+      "slug": "yolov8-inference-test-2",
+      "title": "YOLOv8 Inference Test 2",
+      "description": "Short computer-vision object-detection inference test clip.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "JLafB65z3qk"
+    },
+    {
+      "slug": "yolov8-inference-test-3",
+      "title": "YOLOv8 Inference Test 3",
+      "description": "Short computer-vision object-detection inference test clip.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "HgsTL1WFHKM"
+    },
+    {
+      "slug": "yolov8-inference-test-4",
+      "title": "YOLOv8 Inference Test 4",
+      "description": "Short computer-vision object-detection inference test clip.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "OBYjVtNG5dk"
+    },
+    {
+      "slug": "tree-of-life-awakenings",
+      "title": "Tree of Life Awakenings",
+      "description": "Disney's Animal Kingdom Tree of Life Awakenings reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "hXoVlTmbiZo"
+    },
+    {
+      "slug": "ves-kscsubmission110813-v4",
+      "title": "VES KSCSubmission110813 V4",
+      "description": "Short review/reference clip for VES KSCSubmission110813 V4.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "EY5_DNWMQBk"
+    },
+    {
+      "slug": "ves-dhsw-wtbc-v1",
+      "title": "VES DHSW WTBC V1",
+      "description": "Short review/reference clip for VES DHSW WTBC V1.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "COUNfIOoKUY"
+    },
+    {
+      "slug": "ves-dhsw-bts-v4",
+      "title": "VES DHSW BTS V4",
+      "description": "Short review/reference clip for VES DHSW BTS V4.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "ox_xFBc3nnw"
+    },
+    {
+      "slug": "tree-of-life-projection-reference",
+      "title": "Tree of Life Projection Reference",
+      "description": "Tree of Life projection or show reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "ro0VbYaGO08"
+    },
+    {
+      "slug": "tree-of-life-awakenings-red-fox-in-winter",
+      "title": "Tree of Life Awakenings - Red Fox in Winter",
+      "description": "Tree of Life Awakenings reference clip featuring the red fox in winter segment.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "HJtc9v_ZmwY"
+    },
+    {
+      "slug": "teaonui-x3",
+      "title": "TEAONUI X3",
+      "description": "Short review/reference clip for TEAONUI X3.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "NXDrKTjP1f4"
+    },
+    {
+      "slug": "swft-2k-dpx-mp4-rev1-002",
+      "title": "Swft 2k DPX Mp4 Rev1 002",
+      "description": "Short review/reference clip for Swft 2k DPX Mp4 Rev1 002.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "gIwrEXlNPDM"
+    },
+    {
+      "slug": "swad-ride-000-master-v81-latlong",
+      "title": "SWAD RIDE 000 Master V81 Latlong",
+      "description": "Short review/reference clip for SWAD RIDE 000 Master V81 Latlong.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "IJ076e2iwU8"
+    },
+    {
+      "slug": "swad-ride-000-master-v80-latlong",
+      "title": "SWAD RIDE 000 Master V80 Latlong",
+      "description": "Short review/reference clip for SWAD RIDE 000 Master V80 Latlong.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "D8pmsa8ey7Y"
+    },
+    {
+      "slug": "swad-ride-000-master-ring-cc-v03-domedown-update",
+      "title": "SWAD RIDE 000 Master Ring CC V03 DomeDown Update",
+      "description": "Short review/reference clip for SWAD RIDE 000 Master Ring CC V03 DomeDown Update.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "SLRZHxNvdx8"
+    },
+    {
+      "slug": "swad-pre-000-master-2d-comp-v77full-res-withaudio",
+      "title": "SWAD PRE 000 Master 2D Comp V77full Res WithAudio",
+      "description": "Short review/reference clip for SWAD PRE 000 Master 2D Comp V77full Res WithAudio.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "Qr9xo4oemhc"
+    },
+    {
+      "slug": "swad-000-master-2dassets-2d-comp-vernereel-timing-v04",
+      "title": "SWAD 000 Master 2DAssets 2D Comp VerneReel Timing V04",
+      "description": "Short review/reference clip for SWAD 000 Master 2DAssets 2D Comp VerneReel Timing V04.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "DRcfvlQbD6M"
+    },
+    {
+      "slug": "swad-000-master-2dassets-2d-comp-hyperspherewithdolphin-v01",
+      "title": "SWAD 000 Master 2DAssets 2D Comp HypersphereWithDolphin V01",
+      "description": "Short review/reference clip for SWAD 000 Master 2DAssets 2D Comp HypersphereWithDolphin V01.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "gmfIkLPSypA"
+    },
+    {
+      "slug": "swad-000-master-2dassets-2d-comp-hanabreakdown-v02",
+      "title": "SWAD 000 Master 2DAssets 2D Comp HanaBreakdown V02",
+      "description": "Short review/reference clip for SWAD 000 Master 2DAssets 2D Comp HanaBreakdown V02.",
+      "category": "before-after",
+      "playlist": "before-after",
+      "youtubeId": "1pfa7v35dZQ"
+    },
+    {
+      "slug": "swad-000-master-2dassets-2d-comp-compassbreakdown-v02-08333",
+      "title": "SWAD 000 Master 2DAssets 2D Comp CompassBreakdown V02 08333",
+      "description": "Short review/reference clip for SWAD 000 Master 2DAssets 2D Comp CompassBreakdown V02 08333.",
+      "category": "before-after",
+      "playlist": "before-after",
+      "youtubeId": "sxBGqZgWG_g"
+    },
+    {
+      "slug": "swad-000-master-2dassets-2d-comp-caribbreakdown-v02-10787",
+      "title": "SWAD 000 Master 2DAssets 2D Comp CaribBreakdown V02 10787",
+      "description": "Short review/reference clip for SWAD 000 Master 2DAssets 2D Comp CaribBreakdown V02 10787.",
+      "category": "before-after",
+      "playlist": "before-after",
+      "youtubeId": "tmMm5LDruvc"
+    },
+    {
+      "slug": "swad-000-master-2dassets-2d-comp-breakdown-whale-v02",
+      "title": "SWAD 000 Master 2DAssets 2D Comp Breakdown Whale V02",
+      "description": "Short review/reference clip for SWAD 000 Master 2DAssets 2D Comp Breakdown Whale V02.",
+      "category": "before-after",
+      "playlist": "before-after",
+      "youtubeId": "9CvviAYjBPY"
+    },
+    {
+      "slug": "swad-000-master-2dassets-2d-comp-breakdown-v03-slide",
+      "title": "SWAD 000 Master 2DAssets 2D Comp Breakdown V03 Slide",
+      "description": "Short review/reference clip for SWAD 000 Master 2DAssets 2D Comp Breakdown V03 Slide.",
+      "category": "before-after",
+      "playlist": "before-after",
+      "youtubeId": "_Ms4wzadp8Y"
+    },
+    {
+      "slug": "swad-000-master-2dassets-2d-comp-breakdown-v01-octopus",
+      "title": "SWAD 000 Master 2DAssets 2D Comp Breakdown V01 Octopus",
+      "description": "Short review/reference clip for SWAD 000 Master 2DAssets 2D Comp Breakdown V01 Octopus.",
+      "category": "before-after",
+      "playlist": "before-after",
+      "youtubeId": "MSwt1zSA2Ic"
+    },
+    {
+      "slug": "swad-000-master-2dassets-2d-comp-breakdown-transpondertoglobe-v01",
+      "title": "SWAD 000 Master 2DAssets 2D Comp Breakdown TransponderToGlobe V01",
+      "description": "Short review/reference clip for SWAD 000 Master 2DAssets 2D Comp Breakdown TransponderToGlobe V01.",
+      "category": "before-after",
+      "playlist": "before-after",
+      "youtubeId": "_RC88ddcnH4"
+    },
+    {
+      "slug": "swad-000-master-2dassets-2d-comp-breakdown-seabed-v02",
+      "title": "SWAD 000 Master 2DAssets 2D Comp Breakdown Seabed V02",
+      "description": "Short review/reference clip for SWAD 000 Master 2DAssets 2D Comp Breakdown Seabed V02.",
+      "category": "before-after",
+      "playlist": "before-after",
+      "youtubeId": "dJLlokxhQyM"
+    },
+    {
+      "slug": "swad-000-master-2dassets-2d-comp-breakdown-natlantic01-v03",
+      "title": "SWAD 000 Master 2DAssets 2D Comp Breakdown NAtlantic01 V03",
+      "description": "Short review/reference clip for SWAD 000 Master 2DAssets 2D Comp Breakdown NAtlantic01 V03.",
+      "category": "before-after",
+      "playlist": "before-after",
+      "youtubeId": "GU43ZzBt63o"
+    },
+    {
+      "slug": "swad-000-master-2dassets-2d-comp-breakdown-moz-v02",
+      "title": "SWAD 000 Master 2DAssets 2D Comp Breakdown Moz V02",
+      "description": "Short review/reference clip for SWAD 000 Master 2DAssets 2D Comp Breakdown Moz V02.",
+      "category": "before-after",
+      "playlist": "before-after",
+      "youtubeId": "ZAHDdHeA7Cg"
+    },
+    {
+      "slug": "swad-000-master-2dassets-2d-comp-breakdown-hypersphere-v01",
+      "title": "SWAD 000 Master 2DAssets 2D Comp Breakdown Hypersphere V01",
+      "description": "Short review/reference clip for SWAD 000 Master 2DAssets 2D Comp Breakdown Hypersphere V01.",
+      "category": "before-after",
+      "playlist": "before-after",
+      "youtubeId": "RvYCJWYkHIk"
+    },
+    {
+      "slug": "swad-000-master-2dassets-2d-comp-breakdown-globe-v01",
+      "title": "SWAD 000 Master 2DAssets 2D Comp Breakdown Globe V01",
+      "description": "Short review/reference clip for SWAD 000 Master 2DAssets 2D Comp Breakdown Globe V01.",
+      "category": "before-after",
+      "playlist": "before-after",
+      "youtubeId": "T4HaZJtuqFc"
+    },
+    {
+      "slug": "swad-000-master-2dassets-2d-comp-breadown-natlantic02-v02",
+      "title": "SWAD 000 Master 2DAssets 2D Comp Breadown NAtlantic02 V02",
+      "description": "Short review/reference clip for SWAD 000 Master 2DAssets 2D Comp Breadown NAtlantic02 V02.",
+      "category": "before-after",
+      "playlist": "before-after",
+      "youtubeId": "xiooQflMTY8"
+    },
+    {
+      "slug": "small-empty-room-3",
+      "title": "Small Empty Room 3",
+      "description": "Short review/reference clip for Small Empty Room 3.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "vmWu9hjCd6A"
+    },
+    {
+      "slug": "pixel-camera-reference-232830539",
+      "title": "Pixel Camera Reference 232830539",
+      "description": "Phone-recorded Pixel camera reference clip.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "nyXDd5aVpWM"
+    },
+    {
+      "slug": "professional-mode-waterfall5-1",
+      "title": "Professional Mode Waterfall5 1",
+      "description": "Short review/reference clip for Professional Mode Waterfall5 1.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "q4V5aljdot0"
+    },
+    {
+      "slug": "paf-omni-4k-r-2017-09-29",
+      "title": "Paf Omni 4K R 2017 09 29",
+      "description": "Short review/reference clip for Paf Omni 4K R 2017 09 29.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "7ZYKL3rHYNE"
+    },
+    {
+      "slug": "paf-flying-v1-5-160929",
+      "title": "PAF Flying V1 5 160929",
+      "description": "Short review/reference clip for PAF Flying V1 5 160929.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "PzP_YOsZMOI"
+    },
+    {
+      "slug": "nbx-000-master-v01",
+      "title": "NBX 000 Master V01",
+      "description": "Short review/reference clip for NBX 000 Master V01.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "GaKmqWSVxhw"
+    },
+    {
+      "slug": "mt-wynn-case-study-reel-v2-ipad",
+      "title": "MT Wynn Case Study Reel V2 Ipad",
+      "description": "Short review/reference clip for MT Wynn Case Study Reel V2 Ipad.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "p8M82WH4Bpg"
+    },
+    {
+      "slug": "mt-paf-reel-2017-v02",
+      "title": "MT PAF Reel 2017 V02",
+      "description": "Short review/reference clip for MT PAF Reel 2017 V02.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "xUer7Y42WIY"
+    },
+    {
+      "slug": "mt-hea-reel-2017-v02",
+      "title": "MT HEA Reel 2017 V02",
+      "description": "Short review/reference clip for MT HEA Reel 2017 V02.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "Z-7xhispJxQ"
+    },
+    {
+      "slug": "meetthegallery-hd",
+      "title": "MeetTheGallery HD",
+      "description": "Short review/reference clip for MeetTheGallery HD.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "Lun_CuRCElY"
+    },
+    {
+      "slug": "ksc-act3-v10-24fps",
+      "title": "KSC Act3 V10 24FPS",
+      "description": "Short review/reference clip for KSC Act3 V10 24FPS.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "X_-v2HDeMso"
+    },
+    {
+      "slug": "ksc-actii-edit-v2",
+      "title": "KSC ActII Edit V2",
+      "description": "Short review/reference clip for KSC ActII Edit V2.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "Pq1uwBPtuPs"
+    },
+    {
+      "slug": "hypersphere-360-1080p",
+      "title": "Hypersphere 360 1080p",
+      "description": "Short review/reference clip for Hypersphere 360 1080p.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "xySIGEV1TZk"
+    },
+    {
+      "slug": "hmm-master-timeline-v26",
+      "title": "HMM Master TIMELINE V26",
+      "description": "Short review/reference clip for HMM Master TIMELINE V26.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "VWWw-JFni_4"
+    },
+    {
+      "slug": "hea-thea-2017-v02",
+      "title": "HEA THEA 2017 V02",
+      "description": "Short review/reference clip for HEA THEA 2017 V02.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "iKe_Tocxg4Y"
+    },
+    {
+      "slug": "flyingdreams-final",
+      "title": "FlyingDreams Final",
+      "description": "Short review/reference clip for FlyingDreams Final.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "9lEdUcYWOX8"
+    },
+    {
+      "slug": "ferrarideepframe",
+      "title": "FerrariDeepFrame",
+      "description": "Short review/reference clip for FerrariDeepFrame.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "pdHRVegl8Lw"
+    },
+    {
+      "slug": "ferrari-f1-v06-comp-v02",
+      "title": "Ferrari F1 V06 Comp V02",
+      "description": "Short review/reference clip for Ferrari F1 V06 Comp V02.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "T2qQeC4xBGI"
+    },
+    {
+      "slug": "archive-visual-reference-051",
+      "title": "Archive Visual Reference 051",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "-RRo35MCpys"
+    },
+    {
+      "slug": "ep9-000-master-2d-comp-masterreview-v08",
+      "title": "EP9 000 Master 2D Comp MasterReview V08",
+      "description": "Short review/reference clip for EP9 000 Master 2D Comp MasterReview V08.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "D_DU7xScCa8"
+    },
+    {
+      "slug": "ep9-000-master-2d-comp-masterreview-v08-2",
+      "title": "EP9 000 Master 2D Comp MasterReview V08 2",
+      "description": "Short review/reference clip for EP9 000 Master 2D Comp MasterReview V08.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "VJYBbwykM9Q"
+    },
+    {
+      "slug": "ep8-guard2-lowres-leftmiddle-sabertrack",
+      "title": "EP8 Guard2 LowRes LeftMiddle SaberTrack",
+      "description": "Short review/reference clip for EP8 Guard2 LowRes LeftMiddle SaberTrack.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "6uURRJfD8Yk"
+    },
+    {
+      "slug": "elementapromo",
+      "title": "ElementaPromo",
+      "description": "Short review/reference clip for ElementaPromo.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "ln3oLO7IIQI"
+    },
+    {
+      "slug": "downloads-1",
+      "title": "Downloads 1",
+      "description": "Short review/reference clip for Downloads 1.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "fS0dax_2m0Q"
+    },
+    {
+      "slug": "ctm-v1-triptic",
+      "title": "CTM V1 Triptic",
+      "description": "Short review/reference clip for CTM V1 Triptic.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "GvZbVkfK1cY"
+    },
+    {
+      "slug": "cropped-reference-right",
+      "title": "Cropped Reference Right",
+      "description": "Short review/reference clip for Cropped Reference Right.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "6sXKHr6DLvA"
+    },
+    {
+      "slug": "comfyui-generated-clip-00204",
+      "title": "ComfyUI Generated Clip 00204",
+      "description": "Short ComfyUI-generated visual test clip.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "amx_LAYh4ac"
+    },
+    {
+      "slug": "comfyui-generated-clip-00204-1",
+      "title": "ComfyUI Generated Clip 00204 1",
+      "description": "Short ComfyUI-generated visual test clip.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "N2xPrM182t8"
+    },
+    {
+      "slug": "comfyui-generated-clip-00055",
+      "title": "ComfyUI Generated Clip 00055",
+      "description": "Short ComfyUI-generated visual test clip.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "MKO4WWTysOk"
+    },
+    {
+      "slug": "comfyui-generated-clip-00055-1",
+      "title": "ComfyUI Generated Clip 00055 1",
+      "description": "Short ComfyUI-generated visual test clip.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "278L5tNWtfY"
+    },
+    {
+      "slug": "cinema-4d-4c3iybfgzh",
+      "title": "Cinema 4D 4c3IYbFGZH",
+      "description": "Short review/reference clip for Cinema 4D 4c3IYbFGZH.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "3OvINv30zAs"
+    },
+    {
+      "slug": "bb8-v005",
+      "title": "BB8 V005",
+      "description": "Short review/reference clip for BB8 V005.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "AFTJeWVUJeg"
+    },
+    {
+      "slug": "animatediff-test-1",
+      "title": "AnimateDiff Test 1",
+      "description": "Short review/reference clip for AnimateDiff Test 1.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "6m48lyNamWY"
+    },
+    {
+      "slug": "happily-ever-after-projection-reference",
+      "title": "Happily Ever After Projection Reference",
+      "description": "Happily Ever After nighttime spectacular or projection-mapping reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "r291TQ7wHRQ"
+    },
+    {
+      "slug": "act-2-4-29-2015",
+      "title": "ACT 2 4 29 2015",
+      "description": "Short review/reference clip for ACT 2 4 29 2015.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "Ap4qFI0KL5c"
+    },
+    {
+      "slug": "archive-visual-reference-068",
+      "title": "Archive Visual Reference 068",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "HcAlCN3AjVA"
+    },
+    {
+      "slug": "archive-visual-reference-069",
+      "title": "Archive Visual Reference 069",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "g7fFNyJykbg"
+    },
+    {
+      "slug": "archive-visual-reference-070",
+      "title": "Archive Visual Reference 070",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "FIOtqYPhw5M"
+    },
+    {
+      "slug": "archive-visual-reference-071",
+      "title": "Archive Visual Reference 071",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "j4Bbor_myls"
+    },
+    {
+      "slug": "archive-visual-reference-072",
+      "title": "Archive Visual Reference 072",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "455TPRVfjOY"
+    },
+    {
+      "slug": "archive-visual-reference-073",
+      "title": "Archive Visual Reference 073",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "tLSj6Kf-XgQ"
+    },
+    {
+      "slug": "archive-visual-reference-074",
+      "title": "Archive Visual Reference 074",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "WypBsitlwMQ"
+    },
+    {
+      "slug": "archive-visual-reference-075",
+      "title": "Archive Visual Reference 075",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "jSTli6uTd_0"
+    },
+    {
+      "slug": "archive-visual-reference-076",
+      "title": "Archive Visual Reference 076",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "y8oDsIIn51M"
+    },
+    {
+      "slug": "archive-visual-reference-077",
+      "title": "Archive Visual Reference 077",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "k3dnHx02PHs"
+    },
+    {
+      "slug": "archive-visual-reference-078",
+      "title": "Archive Visual Reference 078",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "Te03C1lpDAQ"
+    },
+    {
+      "slug": "archive-visual-reference-079",
+      "title": "Archive Visual Reference 079",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "M2spFI9mC7g"
+    },
+    {
+      "slug": "archive-visual-reference-080",
+      "title": "Archive Visual Reference 080",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "GZJbwX5sseI"
+    },
+    {
+      "slug": "archive-visual-reference-081",
+      "title": "Archive Visual Reference 081",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "PltRTxBBSbY"
+    },
+    {
+      "slug": "archive-visual-reference-082",
+      "title": "Archive Visual Reference 082",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "kK-11fP4BOw"
+    },
+    {
+      "slug": "archive-visual-reference-083",
+      "title": "Archive Visual Reference 083",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "7HGVVU71zeQ"
+    },
+    {
+      "slug": "archive-visual-reference-084",
+      "title": "Archive Visual Reference 084",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "Eu_YfXR2ulA"
+    },
+    {
+      "slug": "archive-visual-reference-085",
+      "title": "Archive Visual Reference 085",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "YR73VbcNgMM"
+    },
+    {
+      "slug": "archive-visual-reference-086",
+      "title": "Archive Visual Reference 086",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "WBgVWly0cP4"
+    },
+    {
+      "slug": "archive-visual-reference-087",
+      "title": "Archive Visual Reference 087",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "uUpxGjkzjOs"
+    },
+    {
+      "slug": "archive-visual-reference-088",
+      "title": "Archive Visual Reference 088",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "mz79wSe83UM"
+    },
+    {
+      "slug": "archive-visual-reference-089",
+      "title": "Archive Visual Reference 089",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "vxemV9vnmuI"
+    },
+    {
+      "slug": "archive-visual-reference-090",
+      "title": "Archive Visual Reference 090",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "Tr0di6WoBUQ"
+    },
+    {
+      "slug": "archive-visual-reference-091",
+      "title": "Archive Visual Reference 091",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "Dmc-kSqj9M0"
+    },
+    {
+      "slug": "archive-visual-reference-092",
+      "title": "Archive Visual Reference 092",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "8IOb0qvoI0o"
+    },
+    {
+      "slug": "archive-visual-reference-093",
+      "title": "Archive Visual Reference 093",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "4eAG2wDiu5s"
+    },
+    {
+      "slug": "archive-visual-reference-094",
+      "title": "Archive Visual Reference 094",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "utKyrxKn3Qo"
+    },
+    {
+      "slug": "archive-visual-reference-095",
+      "title": "Archive Visual Reference 095",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "B3uQwhDPL4w"
+    },
+    {
+      "slug": "archive-visual-reference-096",
+      "title": "Archive Visual Reference 096",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "dy7NRWV2gC8"
+    },
+    {
+      "slug": "archive-visual-reference-097",
+      "title": "Archive Visual Reference 097",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "LYouRaUzDAc"
+    },
+    {
+      "slug": "archive-visual-reference-098",
+      "title": "Archive Visual Reference 098",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "ztai90_MfMk"
+    },
+    {
+      "slug": "archive-visual-reference-099",
+      "title": "Archive Visual Reference 099",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "FZ78MN_WH_I"
+    },
+    {
+      "slug": "archive-visual-reference-100",
+      "title": "Archive Visual Reference 100",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "hufVAaTzZ0g"
+    },
+    {
+      "slug": "archive-visual-reference-101",
+      "title": "Archive Visual Reference 101",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "D9Bwz-LI7CY"
+    },
+    {
+      "slug": "archive-visual-reference-102",
+      "title": "Archive Visual Reference 102",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "lVITdhkY_lc"
+    },
+    {
+      "slug": "archive-visual-reference-103",
+      "title": "Archive Visual Reference 103",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "PilgekZd64E"
+    },
+    {
+      "slug": "archive-visual-reference-104",
+      "title": "Archive Visual Reference 104",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "43nBTXDQXuE"
+    },
+    {
+      "slug": "archive-visual-reference-105",
+      "title": "Archive Visual Reference 105",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "DV4GPvSd1MM"
+    },
+    {
+      "slug": "archive-visual-reference-106",
+      "title": "Archive Visual Reference 106",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "idHf6TgpBaY"
+    },
+    {
+      "slug": "archive-visual-reference-107",
+      "title": "Archive Visual Reference 107",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "q8poORxqAnY"
+    },
+    {
+      "slug": "archive-visual-reference-108",
+      "title": "Archive Visual Reference 108",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "BGhlvfMBIes"
+    },
+    {
+      "slug": "archive-visual-reference-109",
+      "title": "Archive Visual Reference 109",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "meagM1_AszM"
+    },
+    {
+      "slug": "archive-visual-reference-110",
+      "title": "Archive Visual Reference 110",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "2bF7eOHfIOY"
+    },
+    {
+      "slug": "archive-visual-reference-111",
+      "title": "Archive Visual Reference 111",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "HvQT-PxmqRY"
+    },
+    {
+      "slug": "archive-visual-reference-112",
+      "title": "Archive Visual Reference 112",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "FKTzdvkIfOI"
+    },
+    {
+      "slug": "archive-visual-reference-113",
+      "title": "Archive Visual Reference 113",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "XbNriBdjH10"
+    },
+    {
+      "slug": "archive-visual-reference-114",
+      "title": "Archive Visual Reference 114",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "QaENmjlSug8"
+    },
+    {
+      "slug": "archive-visual-reference-115",
+      "title": "Archive Visual Reference 115",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "Q02ig14Ue_Q"
+    },
+    {
+      "slug": "archive-visual-reference-116",
+      "title": "Archive Visual Reference 116",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "quGPh4lcKRU"
+    },
+    {
+      "slug": "archive-visual-reference-117",
+      "title": "Archive Visual Reference 117",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "ub-2m9sfios"
+    },
+    {
+      "slug": "archive-visual-reference-118",
+      "title": "Archive Visual Reference 118",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "FbAc_zaHxxg"
+    },
+    {
+      "slug": "archive-visual-reference-119",
+      "title": "Archive Visual Reference 119",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "GUaQLHz4EE0"
+    },
+    {
+      "slug": "archive-visual-reference-120",
+      "title": "Archive Visual Reference 120",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "w6zFZnE5BmU"
+    },
+    {
+      "slug": "archive-visual-reference-121",
+      "title": "Archive Visual Reference 121",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "oE2aHD2d8Bg"
+    },
+    {
+      "slug": "archive-visual-reference-122",
+      "title": "Archive Visual Reference 122",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "aosEG5_jw-Q"
+    },
+    {
+      "slug": "archive-visual-reference-123",
+      "title": "Archive Visual Reference 123",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "aha2oma6Twg"
+    },
+    {
+      "slug": "archive-visual-reference-124",
+      "title": "Archive Visual Reference 124",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "U6pOHBDK4hI"
+    },
+    {
+      "slug": "archive-visual-reference-125",
+      "title": "Archive Visual Reference 125",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "73lQH3wjJCs"
+    },
+    {
+      "slug": "archive-visual-reference-126",
+      "title": "Archive Visual Reference 126",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "WQcK7kRuGOQ"
+    },
+    {
+      "slug": "archive-visual-reference-127",
+      "title": "Archive Visual Reference 127",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "DOAh7C8pO_4"
+    },
+    {
+      "slug": "archive-visual-reference-128",
+      "title": "Archive Visual Reference 128",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "VtMhVZgWnYE"
+    },
+    {
+      "slug": "archive-visual-reference-129",
+      "title": "Archive Visual Reference 129",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "E-Bkbcyz7RY"
+    },
+    {
+      "slug": "archive-visual-reference-130",
+      "title": "Archive Visual Reference 130",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "HJIjJhof3u0"
+    },
+    {
+      "slug": "archive-visual-reference-131",
+      "title": "Archive Visual Reference 131",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "0hO0XRcKcwk"
+    },
+    {
+      "slug": "archive-visual-reference-132",
+      "title": "Archive Visual Reference 132",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "LU-x_R8IPa4"
+    },
+    {
+      "slug": "archive-visual-reference-133",
+      "title": "Archive Visual Reference 133",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "_GQ7yJCiYV4"
+    },
+    {
+      "slug": "archive-visual-reference-134",
+      "title": "Archive Visual Reference 134",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "fCzcGvSm3zk"
+    },
+    {
+      "slug": "archive-visual-reference-135",
+      "title": "Archive Visual Reference 135",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "I5g7O-KRbAg"
+    },
+    {
+      "slug": "archive-visual-reference-136",
+      "title": "Archive Visual Reference 136",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "P_k9KAAbjp4"
+    },
+    {
+      "slug": "archive-visual-reference-137",
+      "title": "Archive Visual Reference 137",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "iXKWlUxb84E"
+    },
+    {
+      "slug": "archive-visual-reference-138",
+      "title": "Archive Visual Reference 138",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "TgdFcRDevXA"
+    },
+    {
+      "slug": "archive-visual-reference-139",
+      "title": "Archive Visual Reference 139",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "v9NiA4bR4Ys"
+    },
+    {
+      "slug": "archive-visual-reference-140",
+      "title": "Archive Visual Reference 140",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "vY8M4Pj0IhU"
+    },
+    {
+      "slug": "archive-visual-reference-141",
+      "title": "Archive Visual Reference 141",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "CAU5EkS6VUM"
+    },
+    {
+      "slug": "archive-visual-reference-142",
+      "title": "Archive Visual Reference 142",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "DRoKTn0tUoQ"
+    },
+    {
+      "slug": "archive-visual-reference-143",
+      "title": "Archive Visual Reference 143",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "GQ9XbZIKyK4"
+    },
+    {
+      "slug": "archive-visual-reference-144",
+      "title": "Archive Visual Reference 144",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "1T_rpA1zfgU"
+    },
+    {
+      "slug": "archive-visual-reference-145",
+      "title": "Archive Visual Reference 145",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "wAXHRNvfeeg"
+    },
+    {
+      "slug": "archive-visual-reference-146",
+      "title": "Archive Visual Reference 146",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "XvhtyO0yI8w"
+    },
+    {
+      "slug": "archive-visual-reference-147",
+      "title": "Archive Visual Reference 147",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "WXSMVoeG0v0"
+    },
+    {
+      "slug": "archive-visual-reference-148",
+      "title": "Archive Visual Reference 148",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "B-WiC2EUOIg"
+    },
+    {
+      "slug": "archive-visual-reference-149",
+      "title": "Archive Visual Reference 149",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "6p58liPAfCc"
+    },
+    {
+      "slug": "archive-visual-reference-150",
+      "title": "Archive Visual Reference 150",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "6WoD05Ku0vM"
+    },
+    {
+      "slug": "archive-visual-reference-151",
+      "title": "Archive Visual Reference 151",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "AQrW9TptVto"
+    },
+    {
+      "slug": "archive-visual-reference-152",
+      "title": "Archive Visual Reference 152",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "S882JipqCaE"
+    },
+    {
+      "slug": "archive-visual-reference-153",
+      "title": "Archive Visual Reference 153",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "evsYcDOUiqk"
+    },
+    {
+      "slug": "archive-visual-reference-154",
+      "title": "Archive Visual Reference 154",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "186ND0CbV88"
+    },
+    {
+      "slug": "archive-visual-reference-155",
+      "title": "Archive Visual Reference 155",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "n1M1l-5tlRw"
+    },
+    {
+      "slug": "archive-visual-reference-156",
+      "title": "Archive Visual Reference 156",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "5wywIuDI4S4"
+    },
+    {
+      "slug": "archive-visual-reference-157",
+      "title": "Archive Visual Reference 157",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "PC1uPuvY5es"
+    },
+    {
+      "slug": "archive-visual-reference-158",
+      "title": "Archive Visual Reference 158",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "ICsFKiwFqpg"
+    },
+    {
+      "slug": "archive-visual-reference-159",
+      "title": "Archive Visual Reference 159",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "H0Kx8sHyUho"
+    },
+    {
+      "slug": "320-entry-wall-patchedit-v1-wind",
+      "title": "320 Entry Wall PatchEdit V1 WIND",
+      "description": "Entry Wall production review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "Km_RrVyVX5I"
+    },
+    {
+      "slug": "320-04-q-entry-wall-creationf1-v01-web",
+      "title": "320 04 Q Entry Wall CreationF1 V01 Web",
+      "description": "Entry Wall production review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "HdgwZxQ-d0A"
+    },
+    {
+      "slug": "320-03-q-entry-wall-eyegt-v02",
+      "title": "320 03 Q Entry Wall EyeGT V02",
+      "description": "Entry Wall production review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "As9xjY6ydVY"
+    },
+    {
+      "slug": "320-02-q-entry-wall-heartf1-v001",
+      "title": "320 02 Q Entry Wall HeartF1 V001",
+      "description": "Entry Wall production review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "AZkv9hMQh64"
+    },
+    {
+      "slug": "300-q-entry-wall-lv-00001-02081",
+      "title": "300 Q Entry Wall Lv 00001 02081",
+      "description": "Entry Wall production review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "49CEO0IZM0w"
+    },
+    {
+      "slug": "210-flying-online-uv-cc-v003",
+      "title": "210 Flying Online UV CC V003",
+      "description": "Short review/reference clip for 210 Flying Online UV CC V003.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "36iB65De_Qg"
+    },
+    {
+      "slug": "110-omni-online-uv-fg-cc-v009-12-18-56-pm",
+      "title": "110 Omni Online UV FG CC V009 12 18 56 PM",
+      "description": "Short review/reference clip for 110 Omni Online UV FG CC V009 12 18 56 PM.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "nhWbx5PZOOE"
+    },
+    {
+      "slug": "archive-visual-reference-167",
+      "title": "Archive Visual Reference 167",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "fLWJmBqUumw"
+    },
+    {
+      "slug": "21-02-01-10-56-43",
+      "title": "21 02 01 10 56 43",
+      "description": "Short review/reference clip for 21 02 01 10 56 43.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "Hmkg69NpvTA"
+    },
+    {
+      "slug": "9fb8a753587b48e2a35171a0b2977907-hd-1080p-7-2mbps-hls-43809729-1080p-aac",
+      "title": "9fb8a753587b48e2a35171a0b2977907 HD 1080p 7 2Mbps Hls 43809729 1080p Aac",
+      "description": "Short review/reference clip for 9fb8a753587b48e2a35171a0b2977907 HD 1080p 7 2Mbps Hls 43809729 1080p Aac.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "bprGvS_if8M"
+    },
+    {
+      "slug": "9fb8a753587b48e2a35171a0b2977907-hd-720p-4-5mbps-43809729",
+      "title": "9fb8a753587b48e2a35171a0b2977907 HD 720p 4 5Mbps 43809729",
+      "description": "Short review/reference clip for 9fb8a753587b48e2a35171a0b2977907 HD 720p 4 5Mbps 43809729.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "IIMaIclU7H8"
+    },
+    {
+      "slug": "9fb8a753587b48e2a35171a0b2977907-hd-720p-4-5mbps-hls-43809729-720p-aac",
+      "title": "9fb8a753587b48e2a35171a0b2977907 HD 720p 4 5Mbps Hls 43809729 720p Aac",
+      "description": "Short review/reference clip for 9fb8a753587b48e2a35171a0b2977907 HD 720p 4 5Mbps Hls 43809729 720p Aac.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "h3o8nXxeIqQ"
+    },
+    {
+      "slug": "9-movie-ending-1",
+      "title": "9 Movie Ending 1",
+      "description": "Short review/reference clip for 9 Movie Ending 1.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "6AmzqR22hok"
+    },
+    {
+      "slug": "before-and-afters-review",
+      "title": "Before and Afters Review",
+      "description": "Before-and-after comparison review clip.",
+      "category": "before-after",
+      "playlist": "before-after",
+      "youtubeId": "bYb9TbEj-4o"
+    },
+    {
+      "slug": "archive-visual-reference-174",
+      "title": "Archive Visual Reference 174",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "Nwhm7RfT_-M"
+    },
+    {
+      "slug": "4-under-the-sea",
+      "title": "4 Under The Sea",
+      "description": "Short review/reference clip for 4 Under The Sea.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "Jeq3apYo-t0"
+    },
+    {
+      "slug": "phone-clip-live-show-projection",
+      "title": "Phone Clip - Live Show Projection",
+      "description": "Phone-recorded live show projection reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "1S6RK6bhrZ4"
+    },
+    {
+      "slug": "phone-clip-scenic-projection-detail",
+      "title": "Phone Clip - Scenic Projection Detail",
+      "description": "Phone-recorded scenic projection reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "ElcRDQ0p2zE"
+    },
+    {
+      "slug": "phone-clip-nighttime-show-moment",
+      "title": "Phone Clip - Nighttime Show Moment",
+      "description": "Phone-recorded nighttime show reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "UmmTHOg8HoA"
+    },
+    {
+      "slug": "happily-ever-after-projection-reference-2",
+      "title": "Happily Ever After Projection Reference 2",
+      "description": "Happily Ever After nighttime spectacular or projection-mapping reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "Ac8iHgc_c-w"
+    },
+    {
+      "slug": "work-to-be-considered-v02",
+      "title": "Work To Be Considered V02",
+      "description": "Short review/reference clip for Work To Be Considered V02.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "eUcmlC_gCvI"
+    },
+    {
+      "slug": "swad-pre-000-master-2d-comp-v77full-res-withaudio-2",
+      "title": "SWAD PRE 000 Master 2D Comp V77full Res WithAudio 2",
+      "description": "Short review/reference clip for SWAD PRE 000 Master 2D Comp V77full Res WithAudio.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "wUpUsALVEPw"
+    },
+    {
+      "slug": "laceyhummingbird-v12a-comp",
+      "title": "LaceyHummingbird V12a Comp",
+      "description": "Short review/reference clip for LaceyHummingbird V12a Comp.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "PTr7l2g-BKw"
+    },
+    {
+      "slug": "jakkuattack-bd-01",
+      "title": "JakkuAttack BD 01",
+      "description": "Short review/reference clip for JakkuAttack BD 01.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "9ybUpyROZ-Y"
+    },
+    {
+      "slug": "phone-clip-live-show-projection-2",
+      "title": "Phone Clip - Live Show Projection 2",
+      "description": "Phone-recorded live show projection reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "h9tp_r4qZr0"
+    },
+    {
+      "slug": "phone-clip-scenic-projection-detail-2",
+      "title": "Phone Clip - Scenic Projection Detail 2",
+      "description": "Phone-recorded scenic projection reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "KrpneO44FzE"
+    },
+    {
+      "slug": "phone-clip-nighttime-show-moment-2",
+      "title": "Phone Clip - Nighttime Show Moment 2",
+      "description": "Phone-recorded nighttime show reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "5dXNwXcOZM4"
+    },
+    {
+      "slug": "phone-clip-stage-lighting-moment",
+      "title": "Phone Clip - Stage Lighting Moment",
+      "description": "Phone-recorded stage lighting reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "4VEl7kvBRXk"
+    },
+    {
+      "slug": "phone-clip-nighttime-spectacular",
+      "title": "Phone Clip - Nighttime Spectacular",
+      "description": "Phone-recorded nighttime spectacular reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "iQuapPAhKZo"
+    },
+    {
+      "slug": "phone-clip-nighttime-spectacular-2",
+      "title": "Phone Clip - Nighttime Spectacular 2",
+      "description": "Phone-recorded nighttime spectacular reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "mIwjexEtdFI"
+    },
+    {
+      "slug": "phone-clip-nighttime-spectacular-3",
+      "title": "Phone Clip - Nighttime Spectacular 3",
+      "description": "Phone-recorded nighttime spectacular reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "H3UBZvhkk1s"
+    },
+    {
+      "slug": "phone-clip-nighttime-spectacular-4",
+      "title": "Phone Clip - Nighttime Spectacular 4",
+      "description": "Phone-recorded nighttime spectacular reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "rmJt_mgxTOg"
+    },
+    {
+      "slug": "phone-reference-clip-0342",
+      "title": "Phone Reference Clip 0342",
+      "description": "Phone-recorded reference clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "4MuR1bRvy6I"
+    },
+    {
+      "slug": "phone-reference-clip-0240",
+      "title": "Phone Reference Clip 0240",
+      "description": "Phone-recorded reference clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "OouiujIfQHU"
+    },
+    {
+      "slug": "phone-reference-clip-0238",
+      "title": "Phone Reference Clip 0238",
+      "description": "Phone-recorded reference clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "-_BKhV0zFEE"
+    },
+    {
+      "slug": "gts-uw-000-master-2d-comp-seq-crop-v08",
+      "title": "GTS UW 000 Master 2D Comp SEQ CROP V08",
+      "description": "Short review/reference clip for GTS UW 000 Master 2D Comp SEQ CROP V08.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "1TdjLb30mI8"
+    },
+    {
+      "slug": "gts-rp-000-master-2d-comp-seq-crop-v07",
+      "title": "GTS RP 000 Master 2D Comp SEQ CROP V07",
+      "description": "Short review/reference clip for GTS RP 000 Master 2D Comp SEQ CROP V07.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "9TUO3MLdt14"
+    },
+    {
+      "slug": "gts-de-000-master-2d-comp-seq-crop-v07",
+      "title": "GTS DE 000 Master 2D Comp SEQ CROP V07",
+      "description": "Short review/reference clip for GTS DE 000 Master 2D Comp SEQ CROP V07.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "gPAAlMLA8ps"
+    },
+    {
+      "slug": "gts-cw-000-master-2d-comp-seq-crop-v08",
+      "title": "GTS CW 000 Master 2D Comp SEQ CROP V08",
+      "description": "Short review/reference clip for GTS CW 000 Master 2D Comp SEQ CROP V08.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "shQ8SC41IK8"
+    },
+    {
+      "slug": "fr-050-nurburgring-previs-v001",
+      "title": "FR 050 Nurburgring Previs V001",
+      "description": "Short review/reference clip for FR 050 Nurburgring Previs V001.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "1Y_gJmcoWmI"
+    },
+    {
+      "slug": "fr-040-monza-previs-v001",
+      "title": "FR 040 Monza Previs V001",
+      "description": "Short review/reference clip for FR 040 Monza Previs V001.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "nJLjqYQDNiA"
+    },
+    {
+      "slug": "fox-reference",
+      "title": "Fox Reference",
+      "description": "Fox character or wildlife reference clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "asYYOZMnN3Y"
+    },
+    {
+      "slug": "deer-doe-textured-turntable",
+      "title": "Deer Doe Textured Turntable",
+      "description": "Textured deer/doe turntable reference clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "uURiG-paUNQ"
+    },
+    {
+      "slug": "before-and-afters-review-2",
+      "title": "Before and Afters Review 2",
+      "description": "Before-and-after comparison review clip.",
+      "category": "before-after",
+      "playlist": "before-after",
+      "youtubeId": "Zv5E-8cjVN8"
+    },
+    {
+      "slug": "bear-lookdev-comp",
+      "title": "Bear Lookdev Comp",
+      "description": "Bear look-development compositing review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "GGCR7Fk_ZR8"
+    },
+    {
+      "slug": "behind-the-scenes-clip",
+      "title": "Behind the Scenes Clip",
+      "description": "Behind-the-scenes production reference clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "IH18un7hB_4"
+    },
+    {
+      "slug": "apollo-comp-review",
+      "title": "Apollo Comp Review",
+      "description": "Apollo compositing review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "SN-6O-rY3uc"
+    },
+    {
+      "slug": "alt-vader-select-take-5",
+      "title": "Alt Vader Select Take 5",
+      "description": "Alt Vader select take 5 review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "eiLOZdNCtGI"
+    },
+    {
+      "slug": "archive-visual-reference-208",
+      "title": "Archive Visual Reference 208",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "dlyLXMoFq6M"
+    },
+    {
+      "slug": "starkiller-destroyed-animatic",
+      "title": "Starkiller Destroyed Animatic",
+      "description": "Starkiller Destroyed animatic review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "iNAzNKI8htI"
+    },
+    {
+      "slug": "180-falcon-asteroids-comp-v22",
+      "title": "180 Falcon Asteroids Comp V22",
+      "description": "Falcon Asteroids production review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "Dq6gLDxqHmY"
+    },
+    {
+      "slug": "180-falcon-asteroids-animatic-render-blast-v09",
+      "title": "180 Falcon Asteroids Animatic Render Blast V09",
+      "description": "Falcon Asteroids production review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "K0cvZOqVUh0"
+    },
+    {
+      "slug": "040-attack-maz-render-blast-v08",
+      "title": "040 Attack Maz Render Blast V08",
+      "description": "Attack Maz render blast review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "gmPzeCFAg70"
+    },
+    {
+      "slug": "040-attack-maz-render-blast-v04",
+      "title": "040 Attack Maz Render Blast V04",
+      "description": "Attack Maz render blast review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "1pMoqfrSQkM"
+    },
+    {
+      "slug": "08-0623",
+      "title": "08 0623",
+      "description": "Short review/reference clip for 08 0623.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "CvL2OwPwYCM"
+    },
+    {
+      "slug": "before-and-afters-review-3",
+      "title": "Before and Afters Review 3",
+      "description": "Before-and-after comparison review clip.",
+      "category": "before-after",
+      "playlist": "before-after",
+      "youtubeId": "0QRn1Y1qbxA"
+    },
+    {
+      "slug": "alpha-quicktime-clip",
+      "title": "Alpha QuickTime Clip",
+      "description": "Alpha QuickTime export clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "9u3hrEkVwYc"
+    }
+  ]
 }

@@ -30,5 +30,22 @@ const { title = "Cedar Connor — Creative Technologist", description = "Real-ti
       <slot />
     </main>
     <Footer />
+    <script is:inline>
+      (function () {
+        if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+        var tiles = document.querySelectorAll(".tile, .repo-card, .model-card");
+        if (!("IntersectionObserver" in window) || !tiles.length) return;
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
+          });
+        }, { rootMargin: "0px 0px -8% 0px" });
+        tiles.forEach(function (t, i) {
+          t.classList.add("reveal");
+          t.style.transitionDelay = Math.min(i % 8, 6) * 40 + "ms";
+          io.observe(t);
+        });
+      })();
+    </script>
   </body>
 </html>

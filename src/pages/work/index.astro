@@ -1,11 +1,13 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ProjectTile from "../../components/ProjectTile.astro";
-import { allProjects, categories } from "../../lib/projects";
+import { allProjects, categories, reel } from "../../lib/projects";
 import { BASE } from "../../lib/url";
 
-const projectsExceptReel = allProjects.filter((p) => p.category !== "reel");
-const cats = Object.entries(categories).filter(([k]) => k !== "reel");
+const projectsExceptReel = allProjects.filter((p) => !reel || p.slug !== reel.slug);
+const counts: Record<string, number> = {};
+for (const p of projectsExceptReel) counts[p.category] = (counts[p.category] || 0) + 1;
+const cats = Object.entries(categories).filter(([k]) => counts[k] > 0);
 ---
 <BaseLayout pageId="work" title="Work — Cedar Connor" description="Every experiment, every prototype, every pipeline.">
   <section class="wrap" style="padding-top: clamp(3rem, 8vh, 6rem); padding-bottom: 2rem;">
@@ -20,9 +22,9 @@ const cats = Object.entries(categories).filter(([k]) => k !== "reel");
 
   <section class="wrap">
     <div class="filters" id="filters">
-      <button class="filter-pill" data-cat="all" data-active="true">All</button>
+      <button class="filter-pill" data-cat="all" data-active="true">All <span class="count">{projectsExceptReel.length}</span></button>
       {cats.map(([key, label]) => (
-        <button class="filter-pill" data-cat={key}>{label}</button>
+        <button class="filter-pill" data-cat={key}>{label} <span class="count">{counts[key]}</span></button>
       ))}
     </div>
 

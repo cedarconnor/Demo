@@ -5,9 +5,13 @@ import ProjectTile from "../components/ProjectTile.astro";
 import { reel, featuredProjects, categories, projectsByCategory } from "../lib/projects";
 import { url } from "../lib/url";
 
-const realtimeStrip = projectsByCategory("realtime").slice(0, 4);
-const aiStrip = projectsByCategory("ai").slice(0, 4);
-const featuredNoReel = featuredProjects.filter((p) => p.category !== "reel");
+// Home-page strips, one per playlist (skip the reel + featured shown above).
+const strips = ["before-after", "wip", "experiments"]
+  .filter((key) => categories[key])
+  .map((key) => ({ key, label: categories[key], items: projectsByCategory(key).slice(0, 4) }))
+  .filter((s) => s.items.length > 0);
+
+const featuredNoReel = featuredProjects;
 const reelId = reel ? reel.youtubeId : "";
 const reelTitle = reel ? reel.title : "Demo Reel";
 ---
@@ -39,27 +43,15 @@ const reelTitle = reel ? reel.title : "Demo Reel";
     </div>
   </section>
 
-  {realtimeStrip.length > 0 && (
+  {strips.map((strip) => (
     <section class="wrap" style="margin-top: 5rem;">
       <header style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:1.5rem;">
-        <h2>{categories["realtime"]}</h2>
-        <a href={url("/work")} class="eyebrow">More</a>
+        <h2>{strip.label}</h2>
+        <a href={url("/work?cat=" + strip.key)} class="eyebrow">More</a>
       </header>
       <div class="grid-cinema">
-        {realtimeStrip.map((project) => <ProjectTile project={project} />)}
+        {strip.items.map((project) => <ProjectTile project={project} />)}
       </div>
     </section>
-  )}
-
-  {aiStrip.length > 0 && (
-    <section class="wrap" style="margin-top: 5rem;">
-      <header style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:1.5rem;">
-        <h2>{categories["ai"]}</h2>
-        <a href={url("/ai")} class="eyebrow">All AI experiments</a>
-      </header>
-      <div class="grid-cinema">
-        {aiStrip.map((project) => <ProjectTile project={project} />)}
-      </div>
-    </section>
-  )}
+  ))}
 </BaseLayout>
