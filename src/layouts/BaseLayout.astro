@@ -31,6 +31,39 @@ const { title = "Cedar Connor — Creative Technologist", description = "Real-ti
     </main>
     <Footer />
     <script is:inline>
+      // Best-effort: ask the YouTube player for the highest quality. YouTube
+      // adapts to player size + bandwidth and treats this as a hint, so it's
+      // not guaranteed — but it nudges embeds away from defaulting low.
+      (function () {
+        var frames = document.querySelectorAll("iframe[data-yt-hq]");
+        if (!frames.length) return;
+        function forceHigh(player) {
+          try { player.setPlaybackQualityRange("hd1080", "highres"); } catch (e) {}
+          try { player.setPlaybackQuality("hd1080"); } catch (e) {}
+        }
+        function upgrade() {
+          frames.forEach(function (f) {
+            try {
+              new YT.Player(f, {
+                events: {
+                  onReady: function (e) { forceHigh(e.target); },
+                  onStateChange: function (e) { if (e.data === 1) forceHigh(e.target); },
+                },
+              });
+            } catch (e) {}
+          });
+        }
+        if (window.YT && window.YT.Player) { upgrade(); return; }
+        var prev = window.onYouTubeIframeAPIReady;
+        window.onYouTubeIframeAPIReady = function () { if (typeof prev === "function") prev(); upgrade(); };
+        if (!document.getElementById("yt-iframe-api")) {
+          var s = document.createElement("script");
+          s.id = "yt-iframe-api";
+          s.src = "https://www.youtube.com/iframe_api";
+          document.head.appendChild(s);
+        }
+      })();
+
       (function () {
         if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
         var tiles = document.querySelectorAll(".tile, .repo-card, .model-card");
