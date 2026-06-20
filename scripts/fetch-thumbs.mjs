@@ -33,7 +33,7 @@ const MANIFEST = resolve(ROOT, "src/data/thumbs.json");
 
 const FORCE = process.argv.includes("--force");
 const CONCURRENCY = 6;
-const MIN_BYTES = 2500; // anything smaller is YouTube's "no thumbnail" blank
+const MIN_BYTES = 1500; // YouTube's "no thumbnail" blank is ~1KB; real (even dark) frames are larger
 const MAX_RETRIES = 8; // ride out CDN propagation inconsistency
 const RETRY_DELAY = 400; // ms
 
@@ -91,8 +91,12 @@ async function worker() {
     if (buf) {
       writeFileSync(file, buf);
       good.push(v.youtubeId);
+    } else if (existsSync(file)) {
+      // Refresh fetch failed (usually transient CDN flakiness) but we already
+      // have a good thumbnail on disk — keep it rather than regressing.
+      good.push(v.youtubeId);
+      console.warn(`[fetch-thumbs] keeping existing thumbnail for ${v.youtubeId} (refresh fetch failed)`);
     } else {
-      if (existsSync(file)) rmSync(file);
       console.warn(`[fetch-thumbs] no usable thumbnail for ${v.youtubeId} (${v.title})`);
     }
   }
