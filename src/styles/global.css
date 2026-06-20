@@ -56,6 +56,9 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
+  /* Always reserve the vertical scrollbar gutter so short pages (e.g. About)
+     don't shift horizontally when the scrollbar appears/disappears between pages. */
+  scrollbar-gutter: stable;
 }
 
 body {
