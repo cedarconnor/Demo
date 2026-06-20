@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import VideoEmbed from "../components/VideoEmbed.astro";
+import { url } from "../lib/url";
+import featured from "../data/featured.json";
 
 // Tools of choice — grouped, current as of the Sphere Studios role.
 const tools = [
@@ -16,17 +17,6 @@ const tools = [
     group: "Real-time & finishing",
     items: "Unreal · Notch · TouchDesigner · DaVinci Resolve",
   },
-];
-
-// Highlighted work — one reference video per project.
-const sphereWork = [
-  { title: "Backstreet Boys", note: "Residency", youtubeId: "4VEl7kvBRXk" },
-  { title: "No Doubt", note: "Residency", youtubeId: "rmJt_mgxTOg" },
-  { title: "Zac Brown", note: "Residency", youtubeId: "OouiujIfQHU" },
-];
-const beyondWork = [
-  { title: "SeaWorld Abu Dhabi", note: "Themed entertainment", youtubeId: "xySIGEV1TZk" },
-  { title: "Hong Kong Disneyland — Momentous", note: "Themed entertainment", youtubeId: "-p8kgnOujSY" },
 ];
 ---
 <BaseLayout pageId="home">
@@ -51,35 +41,42 @@ const beyondWork = [
     </div>
   </section>
 
-  <!-- Highlighted work — one reference video each -->
+  <!-- Highlighted work — self-hosted thumbnail cards -->
   <section class="wrap" style="margin-top: 4.5rem; margin-bottom: 2rem;">
     <div class="eyebrow">Selected work</div>
-
-    <h2 style="margin-top: 0.85rem; margin-bottom: 1.5rem;">At Sphere</h2>
-    <div class="ref-grid">
-      {sphereWork.map((item) => (
-        <div class="ref-card">
-          <VideoEmbed youtubeId={item.youtubeId} title={item.title} variant="project" />
-          <div class="ref-cap">
-            <span class="ref-name">{item.title}</span>
-            <span class="ref-note">{item.note}</span>
-          </div>
+    {featured.groups.map((group) => (
+      <>
+        <h2 style="margin-top: 0.85rem; margin-bottom: 1.5rem;">{group.heading}</h2>
+        <div class="grid-cinema" style="margin-bottom: 3rem;">
+          {group.items.map((item) => (
+            <a
+              class="tile"
+              href={`https://www.youtube.com/watch?v=${item.youtubeId}`}
+              target="_blank"
+              rel="noopener"
+              aria-label={item.title}
+            >
+              <img
+                class="thumb"
+                src={url("/thumbs/" + item.youtubeId + ".jpg")}
+                alt={item.title}
+                loading="lazy"
+                onerror={`this.onerror=null;this.src='https://i.ytimg.com/vi/${item.youtubeId}/hqdefault.jpg'`}
+              />
+              <span class="play" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+              </span>
+              <div class="meta">
+                <div>
+                  <div class="t">{item.title}</div>
+                  <div class="c">{group.note}</div>
+                </div>
+              </div>
+            </a>
+          ))}
         </div>
-      ))}
-    </div>
-
-    <h2 style="margin-top: 3.25rem; margin-bottom: 1.5rem;">Beyond Sphere</h2>
-    <div class="ref-grid">
-      {beyondWork.map((item) => (
-        <div class="ref-card">
-          <VideoEmbed youtubeId={item.youtubeId} title={item.title} variant="project" />
-          <div class="ref-cap">
-            <span class="ref-name">{item.title}</span>
-            <span class="ref-note">{item.note}</span>
-          </div>
-        </div>
-      ))}
-    </div>
+      </>
+    ))}
   </section>
 </BaseLayout>
 
@@ -115,33 +112,5 @@ const beyondWork = [
       grid-template-columns: 1fr;
       gap: 0.4rem;
     }
-  }
-
-  /* Selected-work reference videos */
-  .ref-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 420px), 1fr));
-    gap: 1.6rem;
-  }
-  .ref-cap {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-top: 0.85rem;
-  }
-  .ref-name {
-    font-family: var(--type-display);
-    font-size: clamp(1.2rem, 2vw, 1.5rem);
-    letter-spacing: -0.01em;
-    color: var(--fg);
-  }
-  .ref-note {
-    font-family: var(--type-mono);
-    font-size: 0.65rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--fg-muted);
-    white-space: nowrap;
   }
 </style>

@@ -1,0 +1,22 @@
+{
+  "_comment": "Homepage 'Selected work' cards. Each item shows a self-hosted thumbnail (fetched by scripts/fetch-thumbs.mjs) linking to the YouTube video.",
+  "groups": [
+    {
+      "heading": "At Sphere",
+      "note": "Residency",
+      "items": [
+        { "title": "Backstreet Boys", "youtubeId": "4VEl7kvBRXk" },
+        { "title": "No Doubt", "youtubeId": "rmJt_mgxTOg" },
+        { "title": "Zac Brown", "youtubeId": "OouiujIfQHU" }
+      ]
+    },
+    {
+      "heading": "Beyond Sphere",
+      "note": "Themed entertainment",
+      "items": [
+        { "title": "SeaWorld Abu Dhabi", "youtubeId": "xySIGEV1TZk" },
+        { "title": "Hong Kong Disneyland — Momentous", "youtubeId": "-p8kgnOujSY" }
+      ]
+    }
+  ]
+}

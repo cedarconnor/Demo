@@ -40,14 +40,6 @@
       "youtubeId": "2pfft0OP-k0"
     },
     {
-      "slug": "yolov8-inference-test-2",
-      "title": "YOLOv8 Inference Test 2",
-      "description": "Short computer-vision object-detection inference test clip.",
-      "category": "experiments",
-      "playlist": "experiments",
-      "youtubeId": "JLafB65z3qk"
-    },
-    {
       "slug": "yolov8-inference-test-3",
       "title": "YOLOv8 Inference Test 3",
       "description": "Short computer-vision object-detection inference test clip.",

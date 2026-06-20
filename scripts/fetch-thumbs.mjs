@@ -28,6 +28,7 @@ import { dirname, resolve } from "node:path";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
 const PROJECTS = resolve(ROOT, "src/data/projects.json");
+const FEATURED = resolve(ROOT, "src/data/featured.json");
 const THUMBS_DIR = resolve(ROOT, "public/thumbs");
 const MANIFEST = resolve(ROOT, "src/data/thumbs.json");
 
@@ -45,7 +46,23 @@ const GRAY_HASHES = new Set([]);
 const SIZES = ["maxresdefault", "hqdefault"];
 
 const data = JSON.parse(readFileSync(PROJECTS, "utf8"));
-const videos = (data.videos || []).filter((v) => v.youtubeId);
+const sources = (data.videos || []).slice();
+
+// Also self-host the homepage "Selected work" thumbnails.
+if (existsSync(FEATURED)) {
+  const feat = JSON.parse(readFileSync(FEATURED, "utf8"));
+  for (const g of feat.groups || []) for (const it of g.items || []) sources.push(it);
+}
+
+// Unique by youtubeId.
+const seen = new Set();
+const videos = [];
+for (const v of sources) {
+  if (v.youtubeId && !seen.has(v.youtubeId)) {
+    seen.add(v.youtubeId);
+    videos.push(v);
+  }
+}
 
 mkdirSync(THUMBS_DIR, { recursive: true });
 
