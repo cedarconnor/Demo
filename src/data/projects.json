@@ -24,36 +24,12 @@
   },
   "videos": [
     {
-      "slug": "hkdl-momentous",
-      "title": "HKDL Momentous",
+      "slug": "hong-kong-disneyland-momentous",
+      "title": "Hong Kong Disneyland Momentous",
       "description": "Short review/reference clip for HKDL Momentous.",
       "category": "finals",
       "playlist": "finals",
       "youtubeId": "-p8kgnOujSY"
-    },
-    {
-      "slug": "yolov8-inference-test",
-      "title": "YOLOv8 Inference Test",
-      "description": "Short computer-vision object-detection inference test clip.",
-      "category": "experiments",
-      "playlist": "experiments",
-      "youtubeId": "2pfft0OP-k0"
-    },
-    {
-      "slug": "yolov8-inference-test-3",
-      "title": "YOLOv8 Inference Test 3",
-      "description": "Short computer-vision object-detection inference test clip.",
-      "category": "experiments",
-      "playlist": "experiments",
-      "youtubeId": "HgsTL1WFHKM"
-    },
-    {
-      "slug": "yolov8-inference-test-4",
-      "title": "YOLOv8 Inference Test 4",
-      "description": "Short computer-vision object-detection inference test clip.",
-      "category": "experiments",
-      "playlist": "experiments",
-      "youtubeId": "OBYjVtNG5dk"
     },
     {
       "slug": "tree-of-life-awakenings",
@@ -64,36 +40,20 @@
       "youtubeId": "hXoVlTmbiZo"
     },
     {
-      "slug": "ves-kscsubmission110813-v4",
-      "title": "VES KSCSubmission110813 V4",
+      "slug": "ves-kennedy-space-center-submission",
+      "title": "VES Kennedy Space Center submission.",
       "description": "Short review/reference clip for VES KSCSubmission110813 V4.",
-      "category": "wip",
-      "playlist": "wip",
+      "category": "finals",
+      "playlist": "finals",
       "youtubeId": "EY5_DNWMQBk"
-    },
-    {
-      "slug": "ves-dhsw-wtbc-v1",
-      "title": "VES DHSW WTBC V1",
-      "description": "Short review/reference clip for VES DHSW WTBC V1.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "COUNfIOoKUY"
     },
     {
       "slug": "ves-dhsw-bts-v4",
       "title": "VES DHSW BTS V4",
       "description": "Short review/reference clip for VES DHSW BTS V4.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "ox_xFBc3nnw"
-    },
-    {
-      "slug": "tree-of-life-projection-reference",
-      "title": "Tree of Life Projection Reference",
-      "description": "Tree of Life projection or show reference clip.",
       "category": "finals",
       "playlist": "finals",
-      "youtubeId": "ro0VbYaGO08"
+      "youtubeId": "ox_xFBc3nnw"
     },
     {
       "slug": "tree-of-life-awakenings-red-fox-in-winter",
@@ -104,68 +64,148 @@
       "youtubeId": "HJtc9v_ZmwY"
     },
     {
-      "slug": "teaonui-x3",
-      "title": "TEAONUI X3",
-      "description": "Short review/reference clip for TEAONUI X3.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "NXDrKTjP1f4"
+      "slug": "mt-hea-reel-2017-v02",
+      "title": "MT HEA Reel 2017 V02",
+      "description": "Short review/reference clip for MT HEA Reel 2017 V02.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "Z-7xhispJxQ"
     },
     {
-      "slug": "swft-2k-dpx-mp4-rev1-002",
-      "title": "Swft 2k DPX Mp4 Rev1 002",
-      "description": "Short review/reference clip for Swft 2k DPX Mp4 Rev1 002.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "gIwrEXlNPDM"
+      "slug": "hypersphere-360-1080p",
+      "title": "Hypersphere 360 1080p",
+      "description": "Short review/reference clip for Hypersphere 360 1080p.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "xySIGEV1TZk"
     },
     {
-      "slug": "swad-ride-000-master-v81-latlong",
-      "title": "SWAD RIDE 000 Master V81 Latlong",
-      "description": "Short review/reference clip for SWAD RIDE 000 Master V81 Latlong.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "IJ076e2iwU8"
+      "slug": "hea-thea-2017-v02",
+      "title": "HEA THEA 2017 V02",
+      "description": "Short review/reference clip for HEA THEA 2017 V02.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "iKe_Tocxg4Y"
     },
     {
-      "slug": "swad-ride-000-master-v80-latlong",
-      "title": "SWAD RIDE 000 Master V80 Latlong",
-      "description": "Short review/reference clip for SWAD RIDE 000 Master V80 Latlong.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "D8pmsa8ey7Y"
+      "slug": "flyingdreams-final",
+      "title": "FlyingDreams Final",
+      "description": "Short review/reference clip for FlyingDreams Final.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "9lEdUcYWOX8"
     },
     {
-      "slug": "swad-ride-000-master-ring-cc-v03-domedown-update",
-      "title": "SWAD RIDE 000 Master Ring CC V03 DomeDown Update",
-      "description": "Short review/reference clip for SWAD RIDE 000 Master Ring CC V03 DomeDown Update.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "SLRZHxNvdx8"
+      "slug": "backstreet-boys-siberia",
+      "title": "Backstreet Boys Siberia",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "-RRo35MCpys"
     },
     {
-      "slug": "swad-pre-000-master-2d-comp-v77full-res-withaudio",
-      "title": "SWAD PRE 000 Master 2D Comp V77full Res WithAudio",
-      "description": "Short review/reference clip for SWAD PRE 000 Master 2D Comp V77full Res WithAudio.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "Qr9xo4oemhc"
+      "slug": "happily-ever-after-projection-reference",
+      "title": "Happily Ever After Projection Reference",
+      "description": "Happily Ever After nighttime spectacular or projection-mapping reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "r291TQ7wHRQ"
     },
     {
-      "slug": "swad-000-master-2dassets-2d-comp-vernereel-timing-v04",
-      "title": "SWAD 000 Master 2DAssets 2D Comp VerneReel Timing V04",
-      "description": "Short review/reference clip for SWAD 000 Master 2DAssets 2D Comp VerneReel Timing V04.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "DRcfvlQbD6M"
+      "slug": "backstreet-boys-siberia-2",
+      "title": "Backstreet Boys Siberia",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "HcAlCN3AjVA"
     },
     {
-      "slug": "swad-000-master-2dassets-2d-comp-hyperspherewithdolphin-v01",
-      "title": "SWAD 000 Master 2DAssets 2D Comp HypersphereWithDolphin V01",
-      "description": "Short review/reference clip for SWAD 000 Master 2DAssets 2D Comp HypersphereWithDolphin V01.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "gmfIkLPSypA"
+      "slug": "backstreet-boys-siberia-3",
+      "title": "Backstreet Boys Siberia",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "g7fFNyJykbg"
+    },
+    {
+      "slug": "little-mermaid-at-the-hollywood-bowl",
+      "title": "Little Mermaid at the Hollywood Bowl.",
+      "description": "Short review/reference clip for 4 Under The Sea.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "Jeq3apYo-t0"
+    },
+    {
+      "slug": "backstreet-boys",
+      "title": "Backstreet boys.",
+      "description": "Phone-recorded live show projection reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "1S6RK6bhrZ4"
+    },
+    {
+      "slug": "backstreet-boys-2",
+      "title": "Backstreet boys.",
+      "description": "Phone-recorded nighttime show reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "UmmTHOg8HoA"
+    },
+    {
+      "slug": "backstreet-boys-3",
+      "title": "Backstreet boys.",
+      "description": "Phone-recorded live show projection reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "h9tp_r4qZr0"
+    },
+    {
+      "slug": "backstreet-boys-4",
+      "title": "Backstreet boys.",
+      "description": "Phone-recorded nighttime show reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "5dXNwXcOZM4"
+    },
+    {
+      "slug": "backstreet-boys-5",
+      "title": "Backstreet boys.",
+      "description": "Phone-recorded stage lighting reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "4VEl7kvBRXk"
+    },
+    {
+      "slug": "zac-brown",
+      "title": "Zac Brown",
+      "description": "Phone-recorded nighttime spectacular reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "iQuapPAhKZo"
+    },
+    {
+      "slug": "no-doubt",
+      "title": "No Doubt.",
+      "description": "Phone-recorded nighttime spectacular reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "mIwjexEtdFI"
+    },
+    {
+      "slug": "no-doubt-2",
+      "title": "No Doubt.",
+      "description": "Phone-recorded nighttime spectacular reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "H3UBZvhkk1s"
+    },
+    {
+      "slug": "phone-clip-nighttime-spectacular-4",
+      "title": "Phone Clip - Nighttime Spectacular 4",
+      "description": "Phone-recorded nighttime spectacular reference clip.",
+      "category": "finals",
+      "playlist": "finals",
+      "youtubeId": "rmJt_mgxTOg"
     },
     {
       "slug": "swad-000-master-2dassets-2d-comp-hanabreakdown-v02",
@@ -272,28 +312,100 @@
       "youtubeId": "xiooQflMTY8"
     },
     {
-      "slug": "small-empty-room-3",
-      "title": "Small Empty Room 3",
-      "description": "Short review/reference clip for Small Empty Room 3.",
-      "category": "experiments",
-      "playlist": "experiments",
-      "youtubeId": "vmWu9hjCd6A"
+      "slug": "before-and-afters-review",
+      "title": "Before and Afters Review",
+      "description": "Before-and-after comparison review clip.",
+      "category": "before-after",
+      "playlist": "before-after",
+      "youtubeId": "bYb9TbEj-4o"
     },
     {
-      "slug": "pixel-camera-reference-232830539",
-      "title": "Pixel Camera Reference 232830539",
-      "description": "Phone-recorded Pixel camera reference clip.",
-      "category": "experiments",
-      "playlist": "experiments",
-      "youtubeId": "nyXDd5aVpWM"
+      "slug": "before-and-afters-review-2",
+      "title": "Before and Afters Review 2",
+      "description": "Before-and-after comparison review clip.",
+      "category": "before-after",
+      "playlist": "before-after",
+      "youtubeId": "Zv5E-8cjVN8"
     },
     {
-      "slug": "professional-mode-waterfall5-1",
-      "title": "Professional Mode Waterfall5 1",
-      "description": "Short review/reference clip for Professional Mode Waterfall5 1.",
-      "category": "experiments",
-      "playlist": "experiments",
-      "youtubeId": "q4V5aljdot0"
+      "slug": "before-and-afters-review-3",
+      "title": "Before and Afters Review 3",
+      "description": "Before-and-after comparison review clip.",
+      "category": "before-after",
+      "playlist": "before-after",
+      "youtubeId": "0QRn1Y1qbxA"
+    },
+    {
+      "slug": "ves-dhsw-wtbc",
+      "title": "VES DHSW WTBC",
+      "description": "Short review/reference clip for VES DHSW WTBC V1.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "COUNfIOoKUY"
+    },
+    {
+      "slug": "tree-of-life-projection-reference",
+      "title": "Tree of Life Projection Reference",
+      "description": "Tree of Life projection or show reference clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "ro0VbYaGO08"
+    },
+    {
+      "slug": "sea-world-orlando",
+      "title": "Sea World Orlando.",
+      "description": "Short review/reference clip for Swft 2k DPX Mp4 Rev1 002.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "gIwrEXlNPDM"
+    },
+    {
+      "slug": "sea-world-abu-dhabi-latlong",
+      "title": "Sea World Abu Dhabi Latlong.",
+      "description": "Short review/reference clip for SWAD RIDE 000 Master V81 Latlong.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "IJ076e2iwU8"
+    },
+    {
+      "slug": "swad-ride-000-master-v80-latlong",
+      "title": "SWAD RIDE 000 Master V80 Latlong",
+      "description": "Short review/reference clip for SWAD RIDE 000 Master V80 Latlong.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "D8pmsa8ey7Y"
+    },
+    {
+      "slug": "swad-ride-000-master-ring-cc-v03-domedown-update",
+      "title": "SWAD RIDE 000 Master Ring CC V03 DomeDown Update",
+      "description": "Short review/reference clip for SWAD RIDE 000 Master Ring CC V03 DomeDown Update.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "SLRZHxNvdx8"
+    },
+    {
+      "slug": "swad-pre-000-master-2d-comp-v77full-res-withaudio",
+      "title": "SWAD PRE 000 Master 2D Comp V77full Res WithAudio",
+      "description": "Short review/reference clip for SWAD PRE 000 Master 2D Comp V77full Res WithAudio.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "Qr9xo4oemhc"
+    },
+    {
+      "slug": "swad-000-master-2dassets-2d-comp-vernereel-timing-v04",
+      "title": "SWAD 000 Master 2DAssets 2D Comp VerneReel Timing V04",
+      "description": "Short review/reference clip for SWAD 000 Master 2DAssets 2D Comp VerneReel Timing V04.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "DRcfvlQbD6M"
+    },
+    {
+      "slug": "swad-000-master-2dassets-2d-comp-hyperspherewithdolphin-v01",
+      "title": "SWAD 000 Master 2DAssets 2D Comp HypersphereWithDolphin V01",
+      "description": "Short review/reference clip for SWAD 000 Master 2DAssets 2D Comp HypersphereWithDolphin V01.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "gmfIkLPSypA"
     },
     {
       "slug": "paf-omni-4k-r-2017-09-29",
@@ -312,43 +424,27 @@
       "youtubeId": "PzP_YOsZMOI"
     },
     {
-      "slug": "nbx-000-master-v01",
-      "title": "NBX 000 Master V01",
-      "description": "Short review/reference clip for NBX 000 Master V01.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "GaKmqWSVxhw"
-    },
-    {
       "slug": "mt-wynn-case-study-reel-v2-ipad",
       "title": "MT Wynn Case Study Reel V2 Ipad",
       "description": "Short review/reference clip for MT Wynn Case Study Reel V2 Ipad.",
-      "category": "finals",
-      "playlist": "finals",
+      "category": "wip",
+      "playlist": "wip",
       "youtubeId": "p8M82WH4Bpg"
     },
     {
       "slug": "mt-paf-reel-2017-v02",
       "title": "MT PAF Reel 2017 V02",
       "description": "Short review/reference clip for MT PAF Reel 2017 V02.",
-      "category": "finals",
-      "playlist": "finals",
+      "category": "wip",
+      "playlist": "wip",
       "youtubeId": "xUer7Y42WIY"
-    },
-    {
-      "slug": "mt-hea-reel-2017-v02",
-      "title": "MT HEA Reel 2017 V02",
-      "description": "Short review/reference clip for MT HEA Reel 2017 V02.",
-      "category": "finals",
-      "playlist": "finals",
-      "youtubeId": "Z-7xhispJxQ"
     },
     {
       "slug": "meetthegallery-hd",
       "title": "MeetTheGallery HD",
       "description": "Short review/reference clip for MeetTheGallery HD.",
-      "category": "finals",
-      "playlist": "finals",
+      "category": "wip",
+      "playlist": "wip",
       "youtubeId": "Lun_CuRCElY"
     },
     {
@@ -368,14 +464,6 @@
       "youtubeId": "Pq1uwBPtuPs"
     },
     {
-      "slug": "hypersphere-360-1080p",
-      "title": "Hypersphere 360 1080p",
-      "description": "Short review/reference clip for Hypersphere 360 1080p.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "xySIGEV1TZk"
-    },
-    {
       "slug": "hmm-master-timeline-v26",
       "title": "HMM Master TIMELINE V26",
       "description": "Short review/reference clip for HMM Master TIMELINE V26.",
@@ -384,44 +472,12 @@
       "youtubeId": "VWWw-JFni_4"
     },
     {
-      "slug": "hea-thea-2017-v02",
-      "title": "HEA THEA 2017 V02",
-      "description": "Short review/reference clip for HEA THEA 2017 V02.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "iKe_Tocxg4Y"
-    },
-    {
-      "slug": "flyingdreams-final",
-      "title": "FlyingDreams Final",
-      "description": "Short review/reference clip for FlyingDreams Final.",
-      "category": "finals",
-      "playlist": "finals",
-      "youtubeId": "9lEdUcYWOX8"
-    },
-    {
-      "slug": "ferrarideepframe",
-      "title": "FerrariDeepFrame",
-      "description": "Short review/reference clip for FerrariDeepFrame.",
-      "category": "experiments",
-      "playlist": "experiments",
-      "youtubeId": "pdHRVegl8Lw"
-    },
-    {
       "slug": "ferrari-f1-v06-comp-v02",
       "title": "Ferrari F1 V06 Comp V02",
       "description": "Short review/reference clip for Ferrari F1 V06 Comp V02.",
       "category": "wip",
       "playlist": "wip",
       "youtubeId": "T2qQeC4xBGI"
-    },
-    {
-      "slug": "archive-visual-reference-051",
-      "title": "Archive Visual Reference 051",
-      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
-      "category": "experiments",
-      "playlist": "experiments",
-      "youtubeId": "-RRo35MCpys"
     },
     {
       "slug": "ep9-000-master-2d-comp-masterreview-v08",
@@ -448,22 +504,6 @@
       "youtubeId": "6uURRJfD8Yk"
     },
     {
-      "slug": "elementapromo",
-      "title": "ElementaPromo",
-      "description": "Short review/reference clip for ElementaPromo.",
-      "category": "finals",
-      "playlist": "finals",
-      "youtubeId": "ln3oLO7IIQI"
-    },
-    {
-      "slug": "downloads-1",
-      "title": "Downloads 1",
-      "description": "Short review/reference clip for Downloads 1.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "fS0dax_2m0Q"
-    },
-    {
       "slug": "ctm-v1-triptic",
       "title": "CTM V1 Triptic",
       "description": "Short review/reference clip for CTM V1 Triptic.",
@@ -478,6 +518,430 @@
       "category": "wip",
       "playlist": "wip",
       "youtubeId": "6sXKHr6DLvA"
+    },
+    {
+      "slug": "act-2-4-29-2015",
+      "title": "ACT 2 4 29 2015",
+      "description": "Short review/reference clip for ACT 2 4 29 2015.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "Ap4qFI0KL5c"
+    },
+    {
+      "slug": "archive-visual-reference-072",
+      "title": "Archive Visual Reference 072",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "455TPRVfjOY"
+    },
+    {
+      "slug": "archive-visual-reference-081",
+      "title": "Archive Visual Reference 081",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "PltRTxBBSbY"
+    },
+    {
+      "slug": "archive-visual-reference-082",
+      "title": "Archive Visual Reference 082",
+      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "kK-11fP4BOw"
+    },
+    {
+      "slug": "320-entry-wall-patchedit-v1-wind",
+      "title": "320 Entry Wall PatchEdit V1 WIND",
+      "description": "Entry Wall production review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "Km_RrVyVX5I"
+    },
+    {
+      "slug": "320-04-q-entry-wall-creationf1-v01-web",
+      "title": "320 04 Q Entry Wall CreationF1 V01 Web",
+      "description": "Entry Wall production review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "HdgwZxQ-d0A"
+    },
+    {
+      "slug": "320-03-q-entry-wall-eyegt-v02",
+      "title": "320 03 Q Entry Wall EyeGT V02",
+      "description": "Entry Wall production review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "As9xjY6ydVY"
+    },
+    {
+      "slug": "320-02-q-entry-wall-heartf1-v001",
+      "title": "320 02 Q Entry Wall HeartF1 V001",
+      "description": "Entry Wall production review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "AZkv9hMQh64"
+    },
+    {
+      "slug": "300-q-entry-wall-lv-00001-02081",
+      "title": "300 Q Entry Wall Lv 00001 02081",
+      "description": "Entry Wall production review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "49CEO0IZM0w"
+    },
+    {
+      "slug": "210-flying-online-uv-cc-v003",
+      "title": "210 Flying Online UV CC V003",
+      "description": "Short review/reference clip for 210 Flying Online UV CC V003.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "36iB65De_Qg"
+    },
+    {
+      "slug": "110-omni-online-uv-fg-cc-v009-12-18-56-pm",
+      "title": "110 Omni Online UV FG CC V009 12 18 56 PM",
+      "description": "Short review/reference clip for 110 Omni Online UV FG CC V009 12 18 56 PM.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "nhWbx5PZOOE"
+    },
+    {
+      "slug": "21-02-01-10-56-43",
+      "title": "21 02 01 10 56 43",
+      "description": "Short review/reference clip for 21 02 01 10 56 43.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "Hmkg69NpvTA"
+    },
+    {
+      "slug": "9fb8a753587b48e2a35171a0b2977907-hd-1080p-7-2mbps-hls-43809729-1080p-aac",
+      "title": "9fb8a753587b48e2a35171a0b2977907 HD 1080p 7 2Mbps Hls 43809729 1080p Aac",
+      "description": "Short review/reference clip for 9fb8a753587b48e2a35171a0b2977907 HD 1080p 7 2Mbps Hls 43809729 1080p Aac.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "bprGvS_if8M"
+    },
+    {
+      "slug": "9fb8a753587b48e2a35171a0b2977907-hd-720p-4-5mbps-43809729",
+      "title": "9fb8a753587b48e2a35171a0b2977907 HD 720p 4 5Mbps 43809729",
+      "description": "Short review/reference clip for 9fb8a753587b48e2a35171a0b2977907 HD 720p 4 5Mbps 43809729.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "IIMaIclU7H8"
+    },
+    {
+      "slug": "9fb8a753587b48e2a35171a0b2977907-hd-720p-4-5mbps-hls-43809729-720p-aac",
+      "title": "9fb8a753587b48e2a35171a0b2977907 HD 720p 4 5Mbps Hls 43809729 720p Aac",
+      "description": "Short review/reference clip for 9fb8a753587b48e2a35171a0b2977907 HD 720p 4 5Mbps Hls 43809729 720p Aac.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "h3o8nXxeIqQ"
+    },
+    {
+      "slug": "phone-clip-scenic-projection-detail",
+      "title": "Phone Clip - Scenic Projection Detail",
+      "description": "Phone-recorded scenic projection reference clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "ElcRDQ0p2zE"
+    },
+    {
+      "slug": "happily-ever-after-projection-reference-2",
+      "title": "Happily Ever After Projection Reference 2",
+      "description": "Happily Ever After nighttime spectacular or projection-mapping reference clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "Ac8iHgc_c-w"
+    },
+    {
+      "slug": "work-to-be-considered-v02",
+      "title": "Work To Be Considered V02",
+      "description": "Short review/reference clip for Work To Be Considered V02.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "eUcmlC_gCvI"
+    },
+    {
+      "slug": "swad-pre-000-master-2d-comp-v77full-res-withaudio-2",
+      "title": "SWAD PRE 000 Master 2D Comp V77full Res WithAudio 2",
+      "description": "Short review/reference clip for SWAD PRE 000 Master 2D Comp V77full Res WithAudio.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "wUpUsALVEPw"
+    },
+    {
+      "slug": "laceyhummingbird-v12a-comp",
+      "title": "LaceyHummingbird V12a Comp",
+      "description": "Short review/reference clip for LaceyHummingbird V12a Comp.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "PTr7l2g-BKw"
+    },
+    {
+      "slug": "jakkuattack-bd-01",
+      "title": "JakkuAttack BD 01",
+      "description": "Short review/reference clip for JakkuAttack BD 01.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "9ybUpyROZ-Y"
+    },
+    {
+      "slug": "phone-reference-clip-0342",
+      "title": "Phone Reference Clip 0342",
+      "description": "Phone-recorded reference clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "4MuR1bRvy6I"
+    },
+    {
+      "slug": "zac-brown-2",
+      "title": "Zac Brown.",
+      "description": "Phone-recorded reference clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "OouiujIfQHU"
+    },
+    {
+      "slug": "phone-reference-clip-0238",
+      "title": "Phone Reference Clip 0238",
+      "description": "Phone-recorded reference clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "-_BKhV0zFEE"
+    },
+    {
+      "slug": "gts-uw-000-master-2d-comp-seq-crop-v08",
+      "title": "GTS UW 000 Master 2D Comp SEQ CROP V08",
+      "description": "Short review/reference clip for GTS UW 000 Master 2D Comp SEQ CROP V08.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "1TdjLb30mI8"
+    },
+    {
+      "slug": "gts-rp-000-master-2d-comp-seq-crop-v07",
+      "title": "GTS RP 000 Master 2D Comp SEQ CROP V07",
+      "description": "Short review/reference clip for GTS RP 000 Master 2D Comp SEQ CROP V07.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "9TUO3MLdt14"
+    },
+    {
+      "slug": "gts-de-000-master-2d-comp-seq-crop-v07",
+      "title": "GTS DE 000 Master 2D Comp SEQ CROP V07",
+      "description": "Short review/reference clip for GTS DE 000 Master 2D Comp SEQ CROP V07.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "gPAAlMLA8ps"
+    },
+    {
+      "slug": "gts-cw-000-master-2d-comp-seq-crop-v08",
+      "title": "GTS CW 000 Master 2D Comp SEQ CROP V08",
+      "description": "Short review/reference clip for GTS CW 000 Master 2D Comp SEQ CROP V08.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "shQ8SC41IK8"
+    },
+    {
+      "slug": "fr-050-nurburgring-previs-v001",
+      "title": "FR 050 Nurburgring Previs V001",
+      "description": "Short review/reference clip for FR 050 Nurburgring Previs V001.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "1Y_gJmcoWmI"
+    },
+    {
+      "slug": "fr-040-monza-previs-v001",
+      "title": "FR 040 Monza Previs V001",
+      "description": "Short review/reference clip for FR 040 Monza Previs V001.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "nJLjqYQDNiA"
+    },
+    {
+      "slug": "fox-reference",
+      "title": "Fox Reference",
+      "description": "Fox character or wildlife reference clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "asYYOZMnN3Y"
+    },
+    {
+      "slug": "deer-doe-textured-turntable",
+      "title": "Deer Doe Textured Turntable",
+      "description": "Textured deer/doe turntable reference clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "uURiG-paUNQ"
+    },
+    {
+      "slug": "bear-lookdev-comp",
+      "title": "Bear Lookdev Comp",
+      "description": "Bear look-development compositing review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "GGCR7Fk_ZR8"
+    },
+    {
+      "slug": "behind-the-scenes-clip",
+      "title": "Behind the Scenes Clip",
+      "description": "Behind-the-scenes production reference clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "IH18un7hB_4"
+    },
+    {
+      "slug": "apollo-comp-review",
+      "title": "Apollo Comp Review",
+      "description": "Apollo compositing review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "SN-6O-rY3uc"
+    },
+    {
+      "slug": "alt-vader-select-take-5",
+      "title": "Alt Vader Select Take 5",
+      "description": "Alt Vader select take 5 review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "eiLOZdNCtGI"
+    },
+    {
+      "slug": "starkiller-destroyed-animatic",
+      "title": "Starkiller Destroyed Animatic",
+      "description": "Starkiller Destroyed animatic review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "iNAzNKI8htI"
+    },
+    {
+      "slug": "180-falcon-asteroids-comp-v22",
+      "title": "180 Falcon Asteroids Comp V22",
+      "description": "Falcon Asteroids production review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "Dq6gLDxqHmY"
+    },
+    {
+      "slug": "180-falcon-asteroids-animatic-render-blast-v09",
+      "title": "180 Falcon Asteroids Animatic Render Blast V09",
+      "description": "Falcon Asteroids production review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "K0cvZOqVUh0"
+    },
+    {
+      "slug": "040-attack-maz-render-blast-v08",
+      "title": "040 Attack Maz Render Blast V08",
+      "description": "Attack Maz render blast review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "gmPzeCFAg70"
+    },
+    {
+      "slug": "040-attack-maz-render-blast-v04",
+      "title": "040 Attack Maz Render Blast V04",
+      "description": "Attack Maz render blast review clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "1pMoqfrSQkM"
+    },
+    {
+      "slug": "08-0623",
+      "title": "08 0623",
+      "description": "Short review/reference clip for 08 0623.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "CvL2OwPwYCM"
+    },
+    {
+      "slug": "alpha-quicktime-clip",
+      "title": "Alpha QuickTime Clip",
+      "description": "Alpha QuickTime export clip.",
+      "category": "wip",
+      "playlist": "wip",
+      "youtubeId": "9u3hrEkVwYc"
+    },
+    {
+      "slug": "yolov8-inference-test",
+      "title": "YOLOv8 Inference Test",
+      "description": "Short computer-vision object-detection inference test clip.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "2pfft0OP-k0"
+    },
+    {
+      "slug": "yolov8-inference-test-3",
+      "title": "YOLOv8 Inference Test 3",
+      "description": "Short computer-vision object-detection inference test clip.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "HgsTL1WFHKM"
+    },
+    {
+      "slug": "yolov8-inference-test-4",
+      "title": "YOLOv8 Inference Test 4",
+      "description": "Short computer-vision object-detection inference test clip.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "OBYjVtNG5dk"
+    },
+    {
+      "slug": "animate-diff-character-testing",
+      "title": "Animate diff character testing.",
+      "description": "Short review/reference clip for TEAONUI X3.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "NXDrKTjP1f4"
+    },
+    {
+      "slug": "small-empty-room-3",
+      "title": "Small Empty Room 3",
+      "description": "Short review/reference clip for Small Empty Room 3.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "vmWu9hjCd6A"
+    },
+    {
+      "slug": "pixel-camera-reference-232830539",
+      "title": "Pixel Camera Reference 232830539",
+      "description": "Phone-recorded Pixel camera reference clip.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "nyXDd5aVpWM"
+    },
+    {
+      "slug": "professional-mode-waterfall5-1",
+      "title": "Professional Mode Waterfall5 1",
+      "description": "Short review/reference clip for Professional Mode Waterfall5 1.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "q4V5aljdot0"
+    },
+    {
+      "slug": "ferrarideepframe",
+      "title": "FerrariDeepFrame",
+      "description": "Short review/reference clip for FerrariDeepFrame.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "pdHRVegl8Lw"
+    },
+    {
+      "slug": "elementapromo",
+      "title": "ElementaPromo",
+      "description": "Short review/reference clip for ElementaPromo.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "ln3oLO7IIQI"
+    },
+    {
+      "slug": "downloads-1",
+      "title": "Downloads 1",
+      "description": "Short review/reference clip for Downloads 1.",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "fS0dax_2m0Q"
     },
     {
       "slug": "comfyui-generated-clip-00204",
@@ -536,38 +1000,6 @@
       "youtubeId": "6m48lyNamWY"
     },
     {
-      "slug": "happily-ever-after-projection-reference",
-      "title": "Happily Ever After Projection Reference",
-      "description": "Happily Ever After nighttime spectacular or projection-mapping reference clip.",
-      "category": "finals",
-      "playlist": "finals",
-      "youtubeId": "r291TQ7wHRQ"
-    },
-    {
-      "slug": "act-2-4-29-2015",
-      "title": "ACT 2 4 29 2015",
-      "description": "Short review/reference clip for ACT 2 4 29 2015.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "Ap4qFI0KL5c"
-    },
-    {
-      "slug": "archive-visual-reference-068",
-      "title": "Archive Visual Reference 068",
-      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
-      "category": "experiments",
-      "playlist": "experiments",
-      "youtubeId": "HcAlCN3AjVA"
-    },
-    {
-      "slug": "archive-visual-reference-069",
-      "title": "Archive Visual Reference 069",
-      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
-      "category": "experiments",
-      "playlist": "experiments",
-      "youtubeId": "g7fFNyJykbg"
-    },
-    {
       "slug": "archive-visual-reference-070",
       "title": "Archive Visual Reference 070",
       "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
@@ -582,14 +1014,6 @@
       "category": "experiments",
       "playlist": "experiments",
       "youtubeId": "j4Bbor_myls"
-    },
-    {
-      "slug": "archive-visual-reference-072",
-      "title": "Archive Visual Reference 072",
-      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
-      "category": "experiments",
-      "playlist": "experiments",
-      "youtubeId": "455TPRVfjOY"
     },
     {
       "slug": "archive-visual-reference-073",
@@ -654,22 +1078,6 @@
       "category": "experiments",
       "playlist": "experiments",
       "youtubeId": "GZJbwX5sseI"
-    },
-    {
-      "slug": "archive-visual-reference-081",
-      "title": "Archive Visual Reference 081",
-      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
-      "category": "experiments",
-      "playlist": "experiments",
-      "youtubeId": "PltRTxBBSbY"
-    },
-    {
-      "slug": "archive-visual-reference-082",
-      "title": "Archive Visual Reference 082",
-      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
-      "category": "experiments",
-      "playlist": "experiments",
-      "youtubeId": "kK-11fP4BOw"
     },
     {
       "slug": "archive-visual-reference-083",
@@ -1258,7 +1666,7 @@
     {
       "slug": "archive-visual-reference-156",
       "title": "Archive Visual Reference 156",
-      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "description": "",
       "category": "experiments",
       "playlist": "experiments",
       "youtubeId": "5wywIuDI4S4"
@@ -1266,7 +1674,7 @@
     {
       "slug": "archive-visual-reference-157",
       "title": "Archive Visual Reference 157",
-      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "description": "",
       "category": "experiments",
       "playlist": "experiments",
       "youtubeId": "PC1uPuvY5es"
@@ -1274,7 +1682,7 @@
     {
       "slug": "archive-visual-reference-158",
       "title": "Archive Visual Reference 158",
-      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "description": "",
       "category": "experiments",
       "playlist": "experiments",
       "youtubeId": "ICsFKiwFqpg"
@@ -1282,466 +1690,186 @@
     {
       "slug": "archive-visual-reference-159",
       "title": "Archive Visual Reference 159",
-      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "description": "",
       "category": "experiments",
       "playlist": "experiments",
       "youtubeId": "H0Kx8sHyUho"
     },
     {
-      "slug": "320-entry-wall-patchedit-v1-wind",
-      "title": "320 Entry Wall PatchEdit V1 WIND",
-      "description": "Entry Wall production review clip.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "Km_RrVyVX5I"
-    },
-    {
-      "slug": "320-04-q-entry-wall-creationf1-v01-web",
-      "title": "320 04 Q Entry Wall CreationF1 V01 Web",
-      "description": "Entry Wall production review clip.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "HdgwZxQ-d0A"
-    },
-    {
-      "slug": "320-03-q-entry-wall-eyegt-v02",
-      "title": "320 03 Q Entry Wall EyeGT V02",
-      "description": "Entry Wall production review clip.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "As9xjY6ydVY"
-    },
-    {
-      "slug": "320-02-q-entry-wall-heartf1-v001",
-      "title": "320 02 Q Entry Wall HeartF1 V001",
-      "description": "Entry Wall production review clip.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "AZkv9hMQh64"
-    },
-    {
-      "slug": "300-q-entry-wall-lv-00001-02081",
-      "title": "300 Q Entry Wall Lv 00001 02081",
-      "description": "Entry Wall production review clip.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "49CEO0IZM0w"
-    },
-    {
-      "slug": "210-flying-online-uv-cc-v003",
-      "title": "210 Flying Online UV CC V003",
-      "description": "Short review/reference clip for 210 Flying Online UV CC V003.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "36iB65De_Qg"
-    },
-    {
-      "slug": "110-omni-online-uv-fg-cc-v009-12-18-56-pm",
-      "title": "110 Omni Online UV FG CC V009 12 18 56 PM",
-      "description": "Short review/reference clip for 110 Omni Online UV FG CC V009 12 18 56 PM.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "nhWbx5PZOOE"
-    },
-    {
       "slug": "archive-visual-reference-167",
       "title": "Archive Visual Reference 167",
-      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "description": "",
       "category": "experiments",
       "playlist": "experiments",
       "youtubeId": "fLWJmBqUumw"
     },
     {
-      "slug": "21-02-01-10-56-43",
-      "title": "21 02 01 10 56 43",
-      "description": "Short review/reference clip for 21 02 01 10 56 43.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "Hmkg69NpvTA"
-    },
-    {
-      "slug": "9fb8a753587b48e2a35171a0b2977907-hd-1080p-7-2mbps-hls-43809729-1080p-aac",
-      "title": "9fb8a753587b48e2a35171a0b2977907 HD 1080p 7 2Mbps Hls 43809729 1080p Aac",
-      "description": "Short review/reference clip for 9fb8a753587b48e2a35171a0b2977907 HD 1080p 7 2Mbps Hls 43809729 1080p Aac.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "bprGvS_if8M"
-    },
-    {
-      "slug": "9fb8a753587b48e2a35171a0b2977907-hd-720p-4-5mbps-43809729",
-      "title": "9fb8a753587b48e2a35171a0b2977907 HD 720p 4 5Mbps 43809729",
-      "description": "Short review/reference clip for 9fb8a753587b48e2a35171a0b2977907 HD 720p 4 5Mbps 43809729.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "IIMaIclU7H8"
-    },
-    {
-      "slug": "9fb8a753587b48e2a35171a0b2977907-hd-720p-4-5mbps-hls-43809729-720p-aac",
-      "title": "9fb8a753587b48e2a35171a0b2977907 HD 720p 4 5Mbps Hls 43809729 720p Aac",
-      "description": "Short review/reference clip for 9fb8a753587b48e2a35171a0b2977907 HD 720p 4 5Mbps Hls 43809729 720p Aac.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "h3o8nXxeIqQ"
-    },
-    {
-      "slug": "9-movie-ending-1",
-      "title": "9 Movie Ending 1",
-      "description": "Short review/reference clip for 9 Movie Ending 1.",
-      "category": "finals",
-      "playlist": "finals",
-      "youtubeId": "6AmzqR22hok"
-    },
-    {
-      "slug": "before-and-afters-review",
-      "title": "Before and Afters Review",
-      "description": "Before-and-after comparison review clip.",
-      "category": "before-after",
-      "playlist": "before-after",
-      "youtubeId": "bYb9TbEj-4o"
-    },
-    {
       "slug": "archive-visual-reference-174",
       "title": "Archive Visual Reference 174",
-      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "description": "",
       "category": "experiments",
       "playlist": "experiments",
       "youtubeId": "Nwhm7RfT_-M"
     },
     {
-      "slug": "4-under-the-sea",
-      "title": "4 Under The Sea",
-      "description": "Short review/reference clip for 4 Under The Sea.",
-      "category": "finals",
-      "playlist": "finals",
-      "youtubeId": "Jeq3apYo-t0"
-    },
-    {
-      "slug": "phone-clip-live-show-projection",
-      "title": "Phone Clip - Live Show Projection",
-      "description": "Phone-recorded live show projection reference clip.",
-      "category": "finals",
-      "playlist": "finals",
-      "youtubeId": "1S6RK6bhrZ4"
-    },
-    {
-      "slug": "phone-clip-scenic-projection-detail",
-      "title": "Phone Clip - Scenic Projection Detail",
-      "description": "Phone-recorded scenic projection reference clip.",
-      "category": "finals",
-      "playlist": "finals",
-      "youtubeId": "ElcRDQ0p2zE"
-    },
-    {
-      "slug": "phone-clip-nighttime-show-moment",
-      "title": "Phone Clip - Nighttime Show Moment",
-      "description": "Phone-recorded nighttime show reference clip.",
-      "category": "finals",
-      "playlist": "finals",
-      "youtubeId": "UmmTHOg8HoA"
-    },
-    {
-      "slug": "happily-ever-after-projection-reference-2",
-      "title": "Happily Ever After Projection Reference 2",
-      "description": "Happily Ever After nighttime spectacular or projection-mapping reference clip.",
-      "category": "finals",
-      "playlist": "finals",
-      "youtubeId": "Ac8iHgc_c-w"
-    },
-    {
-      "slug": "work-to-be-considered-v02",
-      "title": "Work To Be Considered V02",
-      "description": "Short review/reference clip for Work To Be Considered V02.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "eUcmlC_gCvI"
-    },
-    {
-      "slug": "swad-pre-000-master-2d-comp-v77full-res-withaudio-2",
-      "title": "SWAD PRE 000 Master 2D Comp V77full Res WithAudio 2",
-      "description": "Short review/reference clip for SWAD PRE 000 Master 2D Comp V77full Res WithAudio.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "wUpUsALVEPw"
-    },
-    {
-      "slug": "laceyhummingbird-v12a-comp",
-      "title": "LaceyHummingbird V12a Comp",
-      "description": "Short review/reference clip for LaceyHummingbird V12a Comp.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "PTr7l2g-BKw"
-    },
-    {
-      "slug": "jakkuattack-bd-01",
-      "title": "JakkuAttack BD 01",
-      "description": "Short review/reference clip for JakkuAttack BD 01.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "9ybUpyROZ-Y"
-    },
-    {
-      "slug": "phone-clip-live-show-projection-2",
-      "title": "Phone Clip - Live Show Projection 2",
-      "description": "Phone-recorded live show projection reference clip.",
-      "category": "finals",
-      "playlist": "finals",
-      "youtubeId": "h9tp_r4qZr0"
-    },
-    {
       "slug": "phone-clip-scenic-projection-detail-2",
       "title": "Phone Clip - Scenic Projection Detail 2",
-      "description": "Phone-recorded scenic projection reference clip.",
-      "category": "finals",
-      "playlist": "finals",
+      "description": "",
+      "category": "experiments",
+      "playlist": "experiments",
       "youtubeId": "KrpneO44FzE"
-    },
-    {
-      "slug": "phone-clip-nighttime-show-moment-2",
-      "title": "Phone Clip - Nighttime Show Moment 2",
-      "description": "Phone-recorded nighttime show reference clip.",
-      "category": "finals",
-      "playlist": "finals",
-      "youtubeId": "5dXNwXcOZM4"
-    },
-    {
-      "slug": "phone-clip-stage-lighting-moment",
-      "title": "Phone Clip - Stage Lighting Moment",
-      "description": "Phone-recorded stage lighting reference clip.",
-      "category": "finals",
-      "playlist": "finals",
-      "youtubeId": "4VEl7kvBRXk"
-    },
-    {
-      "slug": "phone-clip-nighttime-spectacular",
-      "title": "Phone Clip - Nighttime Spectacular",
-      "description": "Phone-recorded nighttime spectacular reference clip.",
-      "category": "finals",
-      "playlist": "finals",
-      "youtubeId": "iQuapPAhKZo"
-    },
-    {
-      "slug": "phone-clip-nighttime-spectacular-2",
-      "title": "Phone Clip - Nighttime Spectacular 2",
-      "description": "Phone-recorded nighttime spectacular reference clip.",
-      "category": "finals",
-      "playlist": "finals",
-      "youtubeId": "mIwjexEtdFI"
-    },
-    {
-      "slug": "phone-clip-nighttime-spectacular-3",
-      "title": "Phone Clip - Nighttime Spectacular 3",
-      "description": "Phone-recorded nighttime spectacular reference clip.",
-      "category": "finals",
-      "playlist": "finals",
-      "youtubeId": "H3UBZvhkk1s"
-    },
-    {
-      "slug": "phone-clip-nighttime-spectacular-4",
-      "title": "Phone Clip - Nighttime Spectacular 4",
-      "description": "Phone-recorded nighttime spectacular reference clip.",
-      "category": "finals",
-      "playlist": "finals",
-      "youtubeId": "rmJt_mgxTOg"
-    },
-    {
-      "slug": "phone-reference-clip-0342",
-      "title": "Phone Reference Clip 0342",
-      "description": "Phone-recorded reference clip.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "4MuR1bRvy6I"
-    },
-    {
-      "slug": "phone-reference-clip-0240",
-      "title": "Phone Reference Clip 0240",
-      "description": "Phone-recorded reference clip.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "OouiujIfQHU"
-    },
-    {
-      "slug": "phone-reference-clip-0238",
-      "title": "Phone Reference Clip 0238",
-      "description": "Phone-recorded reference clip.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "-_BKhV0zFEE"
-    },
-    {
-      "slug": "gts-uw-000-master-2d-comp-seq-crop-v08",
-      "title": "GTS UW 000 Master 2D Comp SEQ CROP V08",
-      "description": "Short review/reference clip for GTS UW 000 Master 2D Comp SEQ CROP V08.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "1TdjLb30mI8"
-    },
-    {
-      "slug": "gts-rp-000-master-2d-comp-seq-crop-v07",
-      "title": "GTS RP 000 Master 2D Comp SEQ CROP V07",
-      "description": "Short review/reference clip for GTS RP 000 Master 2D Comp SEQ CROP V07.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "9TUO3MLdt14"
-    },
-    {
-      "slug": "gts-de-000-master-2d-comp-seq-crop-v07",
-      "title": "GTS DE 000 Master 2D Comp SEQ CROP V07",
-      "description": "Short review/reference clip for GTS DE 000 Master 2D Comp SEQ CROP V07.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "gPAAlMLA8ps"
-    },
-    {
-      "slug": "gts-cw-000-master-2d-comp-seq-crop-v08",
-      "title": "GTS CW 000 Master 2D Comp SEQ CROP V08",
-      "description": "Short review/reference clip for GTS CW 000 Master 2D Comp SEQ CROP V08.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "shQ8SC41IK8"
-    },
-    {
-      "slug": "fr-050-nurburgring-previs-v001",
-      "title": "FR 050 Nurburgring Previs V001",
-      "description": "Short review/reference clip for FR 050 Nurburgring Previs V001.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "1Y_gJmcoWmI"
-    },
-    {
-      "slug": "fr-040-monza-previs-v001",
-      "title": "FR 040 Monza Previs V001",
-      "description": "Short review/reference clip for FR 040 Monza Previs V001.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "nJLjqYQDNiA"
-    },
-    {
-      "slug": "fox-reference",
-      "title": "Fox Reference",
-      "description": "Fox character or wildlife reference clip.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "asYYOZMnN3Y"
-    },
-    {
-      "slug": "deer-doe-textured-turntable",
-      "title": "Deer Doe Textured Turntable",
-      "description": "Textured deer/doe turntable reference clip.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "uURiG-paUNQ"
-    },
-    {
-      "slug": "before-and-afters-review-2",
-      "title": "Before and Afters Review 2",
-      "description": "Before-and-after comparison review clip.",
-      "category": "before-after",
-      "playlist": "before-after",
-      "youtubeId": "Zv5E-8cjVN8"
-    },
-    {
-      "slug": "bear-lookdev-comp",
-      "title": "Bear Lookdev Comp",
-      "description": "Bear look-development compositing review clip.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "GGCR7Fk_ZR8"
-    },
-    {
-      "slug": "behind-the-scenes-clip",
-      "title": "Behind the Scenes Clip",
-      "description": "Behind-the-scenes production reference clip.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "IH18un7hB_4"
-    },
-    {
-      "slug": "apollo-comp-review",
-      "title": "Apollo Comp Review",
-      "description": "Apollo compositing review clip.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "SN-6O-rY3uc"
-    },
-    {
-      "slug": "alt-vader-select-take-5",
-      "title": "Alt Vader Select Take 5",
-      "description": "Alt Vader select take 5 review clip.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "eiLOZdNCtGI"
     },
     {
       "slug": "archive-visual-reference-208",
       "title": "Archive Visual Reference 208",
-      "description": "Short archival visual reference clip. The original generated/upload filename is preserved below.",
+      "description": "",
       "category": "experiments",
       "playlist": "experiments",
       "youtubeId": "dlyLXMoFq6M"
     },
     {
-      "slug": "starkiller-destroyed-animatic",
-      "title": "Starkiller Destroyed Animatic",
-      "description": "Starkiller Destroyed animatic review clip.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "iNAzNKI8htI"
+      "slug": "lr-film-00049",
+      "title": "lr film 00049",
+      "description": "",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "-COGj71WsS0"
     },
     {
-      "slug": "180-falcon-asteroids-comp-v22",
-      "title": "180 Falcon Asteroids Comp V22",
-      "description": "Falcon Asteroids production review clip.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "Dq6gLDxqHmY"
+      "slug": "pxl-20220614-001616070-ts",
+      "title": "PXL 20220614 001616070 TS",
+      "description": "",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "0H20wjCKR1I"
     },
     {
-      "slug": "180-falcon-asteroids-animatic-render-blast-v09",
-      "title": "180 Falcon Asteroids Animatic Render Blast V09",
-      "description": "Falcon Asteroids production review clip.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "K0cvZOqVUh0"
+      "slug": "mousemapper-hd",
+      "title": "Mousemapper HD",
+      "description": "",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "0qWER7c6f08"
     },
     {
-      "slug": "040-attack-maz-render-blast-v08",
-      "title": "040 Attack Maz Render Blast V08",
-      "description": "Attack Maz render blast review clip.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "gmPzeCFAg70"
+      "slug": "tscreen",
+      "title": "TScreen",
+      "description": "",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "2jVcYBQRK8c"
     },
     {
-      "slug": "040-attack-maz-render-blast-v04",
-      "title": "040 Attack Maz Render Blast V04",
-      "description": "Attack Maz render blast review clip.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "1pMoqfrSQkM"
+      "slug": "img-3126",
+      "title": "IMG 3126",
+      "description": "",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "8AB3xZvbxIA"
     },
     {
-      "slug": "08-0623",
-      "title": "08 0623",
-      "description": "Short review/reference clip for 08 0623.",
-      "category": "wip",
-      "playlist": "wip",
-      "youtubeId": "CvL2OwPwYCM"
+      "slug": "img-3117",
+      "title": "IMG 3117",
+      "description": "",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "Is220HmGXok"
     },
     {
-      "slug": "before-and-afters-review-3",
-      "title": "Before and Afters Review 3",
-      "description": "Before-and-after comparison review clip.",
-      "category": "before-after",
-      "playlist": "before-after",
-      "youtubeId": "0QRn1Y1qbxA"
+      "slug": "vid-20191029-171730",
+      "title": "Vid 20191029 171730",
+      "description": "",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "MghPjmIFVZY"
     },
     {
-      "slug": "alpha-quicktime-clip",
-      "title": "Alpha QuickTime Clip",
-      "description": "Alpha QuickTime export clip.",
-      "category": "finals",
-      "playlist": "finals",
-      "youtubeId": "9u3hrEkVwYc"
+      "slug": "platetacking",
+      "title": "PlateTacking",
+      "description": "",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "O8QdRWZ_4w8"
+    },
+    {
+      "slug": "rathair",
+      "title": "RatHair",
+      "description": "",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "PIPkNoN2Muc"
+    },
+    {
+      "slug": "image-from-ios-3",
+      "title": "Image From Ios 3",
+      "description": "",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "X5GMcsaw0fg"
+    },
+    {
+      "slug": "img-3305",
+      "title": "IMG 3305",
+      "description": "",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "cLyXVxaytvM"
+    },
+    {
+      "slug": "wanvideowrapper-vace-startendframe-00027",
+      "title": "WanVideoWrapper VACE startendframe 00027",
+      "description": "",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "fypnfEHHVug"
+    },
+    {
+      "slug": "4396731177123271164img-0833",
+      "title": "4396731177123271164img 0833",
+      "description": "",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "gXZJwTP1gjo"
+    },
+    {
+      "slug": "2021-05-13-14-07-38",
+      "title": "2021 05 13 14 07 38",
+      "description": "",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "p7EojgvgANM"
+    },
+    {
+      "slug": "pxl-20230719-192700117",
+      "title": "PXL 20230719 192700117",
+      "description": "",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "qLeqoBTqlVI"
+    },
+    {
+      "slug": "pixelstreamingdesktop",
+      "title": "PixelStreamingDesktop",
+      "description": "",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "uMZQ7Ucj4_g"
+    },
+    {
+      "slug": "kinect-audio",
+      "title": "Kinect Audio",
+      "description": "",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "y79TZO7FfMo"
+    },
+    {
+      "slug": "daydrive-1",
+      "title": "dayDrive 1",
+      "description": "",
+      "category": "experiments",
+      "playlist": "experiments",
+      "youtubeId": "yBM9wa1xTu8"
     }
   ]
 }

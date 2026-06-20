@@ -23,10 +23,11 @@ const playlistTabs = categoryKeys.map((key) => ({
     <a href={url("/")} class="brand">Cedar&nbsp;Connor</a>
     <nav class="nav" aria-label="Primary">
       <a href={url("/")} aria-current={isActive("/") ? "page" : undefined}>Home</a>
+      <a href={url("/code")} aria-current={isActive("/code") ? "page" : undefined}>Code</a>
+      <a href={url("/models")} aria-current={isActive("/models") ? "page" : undefined}>Models</a>
       {playlistTabs.map((tab) => (
         <a href={url(tab.href)} aria-current={isActive(tab.href) ? "page" : undefined}>{tab.label}</a>
       ))}
-      <a href={url("/code")} aria-current={isActive("/code") ? "page" : undefined}>Code</a>
       <a href={url("/about")} aria-current={isActive("/about") ? "page" : undefined}>About</a>
     </nav>
   </div>

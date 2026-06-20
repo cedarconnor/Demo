@@ -1,25 +1,25 @@
 {
-  "_comment": "Map each YouTube playlist ID to a site category. Find IDs in the playlist URL (list=...). Order here = order on the site.",
+  "_comment": "Maps each YouTube playlist to a site category. Order here = order of the nav tabs and pages. Used by scripts/scrape-playlists.mjs (no API key) to regenerate projects.json.",
   "channelUrl": "https://www.youtube.com/@cedarconnor",
   "reelId": "xUer7Y42WIY",
   "playlists": [
     {
-      "id": "PUT_FINALS_PLAYLIST_ID_HERE",
+      "id": "PLN1hiKyouL-eIRWpa03q88WFqS-8DrPLA",
       "category": "finals",
       "label": "Finals"
     },
     {
-      "id": "PUT_BEFORE_AFTER_PLAYLIST_ID_HERE",
+      "id": "PLN1hiKyouL-fbhjgXWIumSTWKi2ThjdnG",
       "category": "before-after",
       "label": "Before & After"
     },
     {
-      "id": "PUT_WIP_PLAYLIST_ID_HERE",
+      "id": "PLN1hiKyouL-fh96CexQ3PAx9cgfpCVHwz",
       "category": "wip",
       "label": "Work in Progress"
     },
     {
-      "id": "PUT_EXPERIMENTS_PLAYLIST_ID_HERE",
+      "id": "PLN1hiKyouL-eEvQ0V6qnPOW5CgeMcBZ2C",
       "category": "experiments",
       "label": "Experiments"
     }

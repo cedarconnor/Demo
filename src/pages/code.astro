@@ -100,81 +100,6 @@ const githubRepos = [
   },
 ];
 
-const hfModels = [
-  {
-    name: "Z-Image_360",
-    description: "LoRA fine-tune of Z-Image-Turbo for 360° equirectangular image generation.",
-    url: "https://huggingface.co/CedarC/Z-Image_360",
-    baseModel: "Tongyi-MAI/Z-Image-Turbo",
-    task: "text-to-image",
-    downloads: 25,
-    likes: 3,
-  },
-  {
-    name: "QWEN360Edit",
-    description: "Fine-tune of Qwen-Image-Edit for 360° panoramic image editing.",
-    url: "https://huggingface.co/CedarC/QWEN360Edit",
-    baseModel: "Qwen/Qwen-Image-Edit",
-    task: "image-editing",
-    downloads: 0,
-    likes: 1,
-  },
-  {
-    name: "QwenImage360",
-    description: "Fine-tune of Qwen-Image for 360° equirectangular understanding and generation.",
-    url: "https://huggingface.co/CedarC/QwenImage360",
-    baseModel: "Qwen/Qwen-Image",
-    task: "image-to-image",
-    downloads: 0,
-    likes: 0,
-  },
-  {
-    name: "Wan_2_2_360",
-    description: "Fine-tune of Wan 2.2 I2V for full 360° equirectangular video generation.",
-    url: "https://huggingface.co/CedarC/Wan_2_2_360",
-    baseModel: "Wan-AI/Wan2.2-I2V-A14B",
-    task: "image-to-video",
-    downloads: 0,
-    likes: 0,
-  },
-  {
-    name: "Wan22_180_65",
-    description: "Fine-tune of Wan 2.2 I2V for 180° × 65° field-of-view panoramic video.",
-    url: "https://huggingface.co/CedarC/Wan22_180_65",
-    baseModel: "Wan-AI/Wan2.2-I2V-A14B",
-    task: "image-to-video",
-    downloads: 0,
-    likes: 0,
-  },
-  {
-    name: "QwenImage_ll180_65",
-    description: "Fine-tune of Qwen-Image for 180° × 65° latlong panoramic images.",
-    url: "https://huggingface.co/CedarC/QwenImage_ll180_65",
-    baseModel: "Qwen/Qwen-Image",
-    task: "image-to-image",
-    downloads: 0,
-    likes: 0,
-  },
-  {
-    name: "QwenEdit_LL180_65",
-    description: "Fine-tune of Qwen-Image-Edit for 180° × 65° latlong panoramic editing.",
-    url: "https://huggingface.co/CedarC/QwenEdit_LL180_65",
-    baseModel: "Qwen/Qwen-Image-Edit-2509",
-    task: "image-editing",
-    downloads: 0,
-    likes: 0,
-  },
-  {
-    name: "Z-Image_180_65",
-    description: "Fine-tune of Z-Image-Turbo for 180° × 65° latlong panoramic generation.",
-    url: "https://huggingface.co/CedarC/Z-Image_180_65",
-    baseModel: "Tongyi-MAI/Z-Image-Turbo",
-    task: "text-to-image",
-    downloads: 0,
-    likes: 0,
-  },
-];
-
 const langColor: Record<string, string> = {
   Python: "#3572A5",
   GLSL: "#5686a5",
@@ -186,16 +111,15 @@ const langColor: Record<string, string> = {
 
 <BaseLayout pageId="code">
   <section class="wrap" style="padding-top: clamp(3rem, 8vh, 6rem); padding-bottom: 3rem;">
-    <div class="eyebrow">Open source · Models · Tools</div>
-    <h1 style="margin-top: 1rem;">Code &amp;<br /><em style="color: var(--accent); font-style: italic;">models.</em></h1>
+    <div class="eyebrow">Open source · Tools</div>
+    <h1 style="margin-top: 1rem;">Code.</h1>
     <p class="lead" style="margin-top: 1.5rem;">
-      ComfyUI nodes, panoramic AI fine-tunes, and creative tools — most of it
-      pointed at 360° and spatial media problems.
+      ComfyUI nodes and creative tools — most of it pointed at 360° and spatial
+      media problems.
     </p>
   </section>
 
-  <!-- GitHub ---------------------------------------------------------------- -->
-  <section class="wrap" style="margin-top: 2rem;">
+  <section class="wrap" style="margin-top: 2rem; margin-bottom: 6rem;">
     <header class="section-header">
       <h2>GitHub</h2>
       <a href="https://github.com/cedarconnor" target="_blank" rel="noopener" class="eyebrow ext-link">
@@ -229,47 +153,6 @@ const langColor: Record<string, string> = {
       ))}
     </div>
   </section>
-
-  <hr style="margin: 5rem auto; max-width: var(--maxw); padding: 0 clamp(1rem, 4vw, 3rem);" />
-
-  <!-- Hugging Face ---------------------------------------------------------- -->
-  <section class="wrap" style="margin-bottom: 6rem;">
-    <header class="section-header">
-      <h2>Hugging Face</h2>
-      <a href="https://huggingface.co/CedarC" target="_blank" rel="noopener" class="eyebrow ext-link">
-        huggingface.co/CedarC ↗
-      </a>
-    </header>
-
-    <p style="color: var(--fg-muted); margin-bottom: 2.5rem; max-width: 60ch; line-height: 1.6;">
-      Fine-tuned models specialising in 360° and latlong panoramic formats — from
-      text-to-image LoRAs to video generation and image editing.
-    </p>
-
-    <div class="model-grid">
-      {hfModels.map((model) => (
-        <a href={model.url} target="_blank" rel="noopener" class="model-card">
-          <div class="model-top">
-            <span class="hf-icon" aria-hidden="true">🤗</span>
-            <span class="model-name">{model.name}</span>
-          </div>
-          <p class="model-desc">{model.description}</p>
-          <div class="model-meta">
-            <span class="model-task">{model.task}</span>
-            {(model.downloads > 0 || model.likes > 0) && (
-              <span class="model-stats">
-                {model.downloads > 0 && <span>↓ {model.downloads}</span>}
-                {model.likes > 0 && <span>♥ {model.likes}</span>}
-              </span>
-            )}
-          </div>
-          <div class="model-base eyebrow" style="margin-top: 0.75rem;">
-            {model.baseModel}
-          </div>
-        </a>
-      ))}
-    </div>
-  </section>
 </BaseLayout>
 
 <style>
@@ -288,7 +171,6 @@ const langColor: Record<string, string> = {
   }
   .ext-link:hover { color: var(--accent); }
 
-  /* GitHub repo cards */
   .repo-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
@@ -376,92 +258,5 @@ const langColor: Record<string, string> = {
     font-size: 0.7rem;
     color: var(--fg-muted);
     margin-left: auto;
-  }
-
-  /* HuggingFace model cards */
-  .model-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
-    gap: 1rem;
-  }
-
-  .model-card {
-    display: flex;
-    flex-direction: column;
-    padding: 1.25rem 1.4rem;
-    background: var(--bg-soft);
-    border: 1px solid var(--line);
-    border-radius: 6px;
-    transition: border-color 0.2s var(--ease), transform 0.25s var(--ease);
-  }
-  .model-card:hover {
-    border-color: var(--line-strong);
-    transform: translateY(-2px);
-    color: inherit;
-  }
-
-  .model-top {
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-    margin-bottom: 0.6rem;
-  }
-
-  .hf-icon {
-    font-size: 1rem;
-    line-height: 1;
-    flex-shrink: 0;
-  }
-
-  .model-name {
-    font-family: var(--type-mono);
-    font-size: 0.85rem;
-    color: var(--accent-soft);
-    font-weight: 500;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
-  .model-desc {
-    font-size: 0.875rem;
-    color: var(--fg-muted);
-    line-height: 1.5;
-    flex: 1;
-    margin-bottom: 0.75rem;
-  }
-
-  .model-meta {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0.5rem;
-  }
-
-  .model-task {
-    font-family: var(--type-mono);
-    font-size: 0.65rem;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: var(--fg-muted);
-    border: 1px solid var(--line);
-    border-radius: 999px;
-    padding: 0.2em 0.65em;
-  }
-
-  .model-stats {
-    display: flex;
-    gap: 0.75rem;
-    font-family: var(--type-mono);
-    font-size: 0.7rem;
-    color: var(--fg-muted);
-  }
-
-  .model-base {
-    font-size: 0.62rem;
-    color: var(--fg-faint);
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
   }
 </style>
